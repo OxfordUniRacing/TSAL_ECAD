@@ -384,8 +384,6 @@ Wire Wire Line
 Connection ~ 7100 4700
 Wire Wire Line
 	7100 4700 7800 4700
-Text Notes 5000 5150 0    50   ~ 0
-To LED
 $Comp
 L Device:D_Zener D2
 U 1 1 5DEBAF5B
@@ -466,4 +464,14 @@ F 4 "105309-1102" H 4100 2550 50  0001 C CNN "Part"
 	1    4100 2550
 	-1   0    0    1   
 $EndComp
+Text Notes 1500 2000 0    60   ~ 0
+HV Sense Board 1\nLocated in HV Junction Box
+Text Notes 1500 4500 0    60   ~ 0
+HV Sense Board 2\nLocated in Battery\nPower Electronics Compartment
+Text Notes 1500 2500 0    60   ~ 0
+Mechanical dimensions: 40mm x 40mm\nMounting holes: M3, 30mm x 30mm
+Text Notes 1500 5000 0    60   ~ 0
+Mechanical dimensions: 50mm x 50mm\nMounting holes: M3, 40mm x 40mm
+Text Notes 5150 5200 2    50   ~ 0
+To HV Indicator LED
 $EndSCHEMATC
