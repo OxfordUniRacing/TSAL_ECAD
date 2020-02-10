@@ -19,49 +19,21 @@ U 1 1 5DE74111
 P 6050 2400
 F 0 "R2" V 5843 2400 50  0000 C CNN
 F 1 "10k" V 5934 2400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5980 2400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5980 2400 50  0001 C CNN
 F 3 "~" H 6050 2400 50  0001 C CNN
 	1    6050 2400
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J4
-U 1 1 5DEBEFA0
-P 5900 5300
-F 0 "J4" H 5818 5525 50  0000 C CNN
-F 1 "22035035" H 5818 5526 50  0001 C CNN
-F 2 "Connector_Molex:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical" H 5900 5300 50  0001 C CNN
-F 3 "~" H 5900 5300 50  0001 C CNN
-	1    5900 5300
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	6700 4400 6900 4400
+	7300 4900 7800 4900
 Wire Wire Line
-	6900 4700 6900 4400
+	7200 4800 7800 4800
 Wire Wire Line
-	7500 4700 6900 4700
+	7400 5000 7400 5400
 Wire Wire Line
-	7000 4900 7500 4900
+	7300 4900 7300 5300
 Wire Wire Line
-	6900 4800 7500 4800
-Wire Wire Line
-	7100 5000 7100 5400
-Wire Wire Line
-	7000 4900 7000 5300
-Wire Wire Line
-	6900 4800 6900 5200
-$Comp
-L Connector_Generic:Conn_01x06 J5
-U 1 1 5DEBE41E
-P 7700 4800
-F 0 "J5" H 7618 4367 50  0000 C CNN
-F 1 "22035065" H 7618 4366 50  0001 C CNN
-F 2 "Connector_Molex:Molex_SPOX_5267-06A_1x06_P2.50mm_Vertical" H 7700 4800 50  0001 C CNN
-F 3 "~" H 7700 4800 50  0001 C CNN
-	1    7700 4800
-	1    0    0    1   
-$EndComp
+	7200 4800 7200 5200
 $Comp
 L Connector_Generic:Conn_01x03 J2
 U 1 1 5DEF22EB
@@ -74,104 +46,75 @@ F 3 "~" H 6700 2500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	6200 4400 6200 4900
-Connection ~ 6200 4400
-Connection ~ 6450 4400
-Wire Wire Line
-	6450 4400 6200 4400
-Wire Wire Line
-	6200 4300 6200 4400
-Wire Wire Line
-	6700 4400 6700 4900
-Wire Wire Line
-	6450 4400 6700 4400
-Wire Wire Line
-	5900 4500 7500 4500
-Wire Wire Line
-	7100 5000 7500 5000
-Wire Wire Line
-	5800 4600 7500 4600
-Text Label 7400 5000 2    50   ~ 0
+	7400 5000 7800 5000
+Text Label 7700 5000 2    50   ~ 0
 AUX_3
-Text Label 7400 4900 2    50   ~ 0
+Text Label 7700 4900 2    50   ~ 0
 AUX_2
-Text Label 7400 4800 2    50   ~ 0
+Text Label 7700 4800 2    50   ~ 0
 AUX_1
-Connection ~ 6700 4400
 Wire Wire Line
-	6450 4900 6450 4400
-Connection ~ 5900 4500
-Wire Wire Line
-	5900 4300 6200 4300
-Wire Wire Line
-	5900 4500 5800 4500
+	6000 4300 6300 4300
 $Comp
 L Device:R_Small R4
 U 1 1 5DEE1A7B
-P 5900 4400
-F 0 "R4" H 5841 4354 50  0000 R CNN
-F 1 "10k" H 5841 4445 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5900 4400 50  0001 C CNN
-F 3 "~" H 5900 4400 50  0001 C CNN
-	1    5900 4400
+P 6000 4400
+F 0 "R4" H 5941 4354 50  0000 R CNN
+F 1 "10k" H 5941 4445 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 4400 50  0001 C CNN
+F 3 "~" H 6000 4400 50  0001 C CNN
+	1    6000 4400
 	-1   0    0    1   
 $EndComp
-Connection ~ 6200 5400
+Connection ~ 6300 5400
 Wire Wire Line
-	6100 5400 6200 5400
+	6200 5400 6300 5400
 Wire Wire Line
-	6100 5300 6450 5300
+	6200 5300 6550 5300
 Wire Wire Line
-	6100 5200 6700 5200
+	6200 5200 6800 5200
 Wire Wire Line
-	6200 5400 7100 5400
+	6300 5100 6300 5400
+Connection ~ 6550 5300
 Wire Wire Line
-	6200 5100 6200 5400
-Connection ~ 6450 5300
+	6550 5100 6550 5300
 Wire Wire Line
-	6450 5100 6450 5300
-Wire Wire Line
-	6700 5200 6900 5200
-Connection ~ 6700 5200
-Wire Wire Line
-	6700 5100 6700 5200
-Wire Wire Line
-	7000 5300 6450 5300
+	6800 5100 6800 5200
 $Comp
 L Device:R_Small R5
 U 1 1 5DECB06C
-P 6200 5000
-F 0 "R5" H 6259 5046 50  0000 L CNN
-F 1 "10k" H 6259 4955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6200 5000 50  0001 C CNN
-F 3 "~" H 6200 5000 50  0001 C CNN
-	1    6200 5000
+P 6300 5000
+F 0 "R5" H 6359 5046 50  0000 L CNN
+F 1 "10k" H 6359 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6300 5000 50  0001 C CNN
+F 3 "~" H 6300 5000 50  0001 C CNN
+	1    6300 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R6
 U 1 1 5DEC855C
-P 6450 5000
-F 0 "R6" H 6509 5046 50  0000 L CNN
-F 1 "10k" H 6509 4955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6450 5000 50  0001 C CNN
-F 3 "~" H 6450 5000 50  0001 C CNN
-	1    6450 5000
+P 6550 5000
+F 0 "R6" H 6609 5046 50  0000 L CNN
+F 1 "10k" H 6609 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6550 5000 50  0001 C CNN
+F 3 "~" H 6550 5000 50  0001 C CNN
+	1    6550 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R7
 U 1 1 5DEC4428
-P 6700 5000
-F 0 "R7" H 6759 5046 50  0000 L CNN
-F 1 "10k" H 6759 4955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6700 5000 50  0001 C CNN
-F 3 "~" H 6700 5000 50  0001 C CNN
-	1    6700 5000
+P 6800 5000
+F 0 "R7" H 6859 5046 50  0000 L CNN
+F 1 "10k" H 6859 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6800 5000 50  0001 C CNN
+F 3 "~" H 6800 5000 50  0001 C CNN
+	1    6800 5000
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	5500 3600 5500 5500
+	5500 3600 5500 6500
 Wire Notes Line
 	5500 1500 5500 3400
 Text Notes 5250 3800 0    100  ~ 0
@@ -179,50 +122,13 @@ TS
 Text Notes 5550 3800 0    100  ~ 0
 LV
 Wire Notes Line style solid
-	3500 3500 7500 3500
-$Comp
-L Connector_Generic:Conn_01x02 J3
-U 1 1 5DEBAF62
-P 4200 4550
-F 0 "J3" H 4118 4225 50  0000 C CNN
-F 1 "2-1445098-2" H 4118 4316 50  0000 C CNN
-F 2 "project:TE_2-1445098-2" H 4200 4550 50  0001 C CNN
-F 3 "~" H 4200 4550 50  0001 C CNN
-	1    4200 4550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5200 4600 4600 4600
-$Comp
-L Device:D_Zener D2
-U 1 1 5DEBAF5B
-P 5050 4400
-F 0 "D2" H 5050 4616 50  0000 C CNN
-F 1 "51V" H 5050 4525 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5050 4400 50  0001 C CNN
-F 3 "~" H 5050 4400 50  0001 C CNN
-F 4 "1N5942B" H 5050 4400 50  0001 C CNN "Part"
-	1    5050 4400
-	1    0    0    -1  
-$EndComp
-Text Label 7400 4600 2    50   ~ 0
+	500  3500 11200 3500
+Text Label 7700 4600 2    50   ~ 0
 GND
-Text Label 7400 4500 2    50   ~ 0
+Text Label 7700 4500 2    50   ~ 0
 Sense
-Text Label 7400 4700 2    50   ~ 0
+Text Label 7700 4700 2    50   ~ 0
 VCC
-Text Label 4400 4550 0    50   ~ 0
-HV-
-Text Label 4400 4450 0    50   ~ 0
-HV+
-Wire Wire Line
-	4600 4550 4400 4550
-Wire Wire Line
-	4600 4600 4600 4550
-Wire Wire Line
-	4600 4450 4600 4400
-Wire Wire Line
-	4400 4450 4600 4450
 $Comp
 L Device:R R3
 U 1 1 5DEBAF35
@@ -247,28 +153,15 @@ F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 5500 4500 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5DE70FD1
-P 4200 2550
-F 0 "J1" H 4118 2225 50  0000 C CNN
-F 1 "2-1445098-2" H 4118 2316 50  0000 C CNN
-F 2 "project:TE_2-1445098-2" H 4200 2550 50  0001 C CNN
-F 3 "~" H 4200 2550 50  0001 C CNN
-	1    4200 2550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5200 2600 4600 2600
-$Comp
 L Device:D_Zener D1
 U 1 1 5DE929E0
-P 5050 2400
-F 0 "D1" H 5050 2616 50  0000 C CNN
-F 1 "51V" H 5050 2525 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5050 2400 50  0001 C CNN
-F 3 "~" H 5050 2400 50  0001 C CNN
-F 4 "1N5942B" H 5050 2400 50  0001 C CNN "Part"
-	1    5050 2400
+P 4750 2400
+F 0 "D1" H 4750 2616 50  0000 C CNN
+F 1 "51V" H 4750 2525 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4750 2400 50  0001 C CNN
+F 3 "~" H 4750 2400 50  0001 C CNN
+F 4 "1N5942B" H 4750 2524 50  0001 C CNN "Part"
+	1    4750 2400
 	1    0    0    -1  
 $EndComp
 Text Notes 5550 1700 0    100  ~ 0
@@ -292,27 +185,23 @@ Wire Wire Line
 	5900 2400 5900 2500
 Wire Wire Line
 	5800 2500 5900 2500
-Text Label 4400 2550 0    50   ~ 0
+Text Label 4300 2550 0    50   ~ 0
 HV-
-Text Label 4400 2450 0    50   ~ 0
+Text Label 4300 2450 0    50   ~ 0
 HV+
 Wire Wire Line
-	4600 2550 4400 2550
+	4500 2550 4300 2550
 Wire Wire Line
-	4600 2600 4600 2550
-Wire Wire Line
-	4600 2450 4600 2400
-Wire Wire Line
-	4400 2450 4600 2450
+	4300 2450 4500 2450
 $Comp
 L Device:R R1
 U 1 1 5DE861D8
-P 4750 2400
-F 0 "R1" V 4543 2400 50  0000 C CNN
-F 1 "10k" V 4634 2400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 4680 2400 50  0001 C CNN
-F 3 "~" H 4750 2400 50  0001 C CNN
-	1    4750 2400
+P 5050 2400
+F 0 "R1" V 4843 2400 50  0000 C CNN
+F 1 "10k" V 4934 2400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 4980 2400 50  0001 C CNN
+F 3 "~" H 5050 2400 50  0001 C CNN
+	1    5050 2400
 	0    1    1    0   
 $EndComp
 NoConn ~ 5800 2400
@@ -326,5 +215,255 @@ F 2 "Package_DIP:DIP-6_W7.62mm" H 5300 2300 50  0001 L CIN
 F 3 "https://www.vishay.com/docs/81181/4n35.pdf" H 5500 2500 50  0001 L CNN
 	1    5500 2500
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 5DEBEFA0
+P 6000 5300
+F 0 "J4" H 5918 5525 50  0000 C CNN
+F 1 "22035035" H 5918 5526 50  0001 C CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical" H 6000 5300 50  0001 C CNN
+F 3 "~" H 6000 5300 50  0001 C CNN
+	1    6000 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J5
+U 1 1 5DEBE41E
+P 8000 4800
+F 0 "J5" H 7918 4367 50  0000 C CNN
+F 1 "22035065" H 7918 4366 50  0001 C CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-06A_1x06_P2.50mm_Vertical" H 8000 4800 50  0001 C CNN
+F 3 "~" H 8000 4800 50  0001 C CNN
+	1    8000 4800
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5E381B19
+P 5100 4900
+F 0 "J6" H 5180 4846 50  0000 L CNN
+F 1 "Conn_01x02" H 5180 4801 50  0001 L CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 5100 4900 50  0001 C CNN
+F 3 "~" H 5100 4900 50  0001 C CNN
+	1    5100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5E37A80A
+P 4750 5000
+F 0 "R8" V 4543 5000 50  0000 C CNN
+F 1 "4.7k" V 4634 5000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 4680 5000 50  0001 C CNN
+F 3 "~" H 4750 5000 50  0001 C CNN
+	1    4750 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 4700 6300 4900
+Wire Wire Line
+	6550 4900 6550 4700
+Connection ~ 6550 4700
+Wire Wire Line
+	6550 4700 6300 4700
+Wire Wire Line
+	6800 4900 6800 4700
+Wire Wire Line
+	6800 4700 6550 4700
+Wire Wire Line
+	6300 4300 6300 4700
+Connection ~ 6300 4700
+Wire Wire Line
+	6800 5200 7200 5200
+Connection ~ 6800 5200
+Wire Wire Line
+	6550 5300 7300 5300
+Wire Wire Line
+	6300 5400 7400 5400
+Connection ~ 6800 4700
+Wire Wire Line
+	6000 4500 7800 4500
+Connection ~ 6000 4500
+$Comp
+L Device:R_Small R9
+U 1 1 5E3D36E9
+P 6300 5600
+F 0 "R9" H 6359 5646 50  0000 L CNN
+F 1 "1k" H 6359 5555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6300 5600 50  0001 C CNN
+F 3 "~" H 6300 5600 50  0001 C CNN
+	1    6300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 5E3D4BAD
+P 6550 5600
+F 0 "R10" H 6609 5646 50  0000 L CNN
+F 1 "1k" H 6609 5555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6550 5600 50  0001 C CNN
+F 3 "~" H 6550 5600 50  0001 C CNN
+	1    6550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 5E3D4E80
+P 6800 5600
+F 0 "R11" H 6859 5646 50  0000 L CNN
+F 1 "1k" H 6859 5555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6800 5600 50  0001 C CNN
+F 3 "~" H 6800 5600 50  0001 C CNN
+	1    6800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D3
+U 1 1 5E3D5D84
+P 6300 5800
+F 0 "D3" V 6300 5898 50  0000 L CNN
+F 1 "LED" V 6345 5898 50  0001 L CNN
+F 2 "LED_THT:LED_D3.0mm" V 6300 5800 50  0001 C CNN
+F 3 "~" V 6300 5800 50  0001 C CNN
+	1    6300 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small D4
+U 1 1 5E3D626C
+P 6550 5800
+F 0 "D4" V 6550 5898 50  0000 L CNN
+F 1 "LED" V 6595 5898 50  0001 L CNN
+F 2 "LED_THT:LED_D3.0mm" V 6550 5800 50  0001 C CNN
+F 3 "~" V 6550 5800 50  0001 C CNN
+	1    6550 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small D5
+U 1 1 5E3D6712
+P 6800 5800
+F 0 "D5" V 6800 5898 50  0000 L CNN
+F 1 "LED" V 6845 5898 50  0001 L CNN
+F 2 "LED_THT:LED_D3.0mm" V 6800 5800 50  0001 C CNN
+F 3 "~" V 6800 5800 50  0001 C CNN
+	1    6800 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 5400 6300 5500
+Wire Wire Line
+	6550 5500 6550 5300
+Wire Wire Line
+	6800 5200 6800 5500
+Text Notes 5900 5400 2    50   ~ 0
+To\nRelay\nAux
+Wire Wire Line
+	5800 4500 6000 4500
+Wire Wire Line
+	5800 4600 7800 4600
+Text Notes 8100 4800 0    50   ~ 0
+To HVJB (TSAL Logic Board)
+Text Notes 6800 2550 0    50   ~ 0
+To TSAL Logic Board
+Wire Wire Line
+	4900 4600 4900 4900
+Wire Wire Line
+	6800 4700 7100 4700
+Wire Wire Line
+	6300 5900 6550 5900
+Wire Wire Line
+	7100 5900 7100 4700
+Connection ~ 6550 5900
+Wire Wire Line
+	6550 5900 6800 5900
+Connection ~ 6800 5900
+Wire Wire Line
+	6800 5900 7100 5900
+Connection ~ 7100 4700
+Wire Wire Line
+	7100 4700 7800 4700
+Text Notes 5000 5150 0    50   ~ 0
+To LED
+$Comp
+L Device:D_Zener D2
+U 1 1 5DEBAF5B
+P 4450 4400
+F 0 "D2" H 4450 4616 50  0000 C CNN
+F 1 "51V" H 4450 4525 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4450 4400 50  0001 C CNN
+F 3 "~" H 4450 4400 50  0001 C CNN
+F 4 "1N5942B" H 4450 4400 50  0001 C CNN "Part"
+	1    4450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5DEBAF62
+P 3800 4550
+F 0 "J3" H 3718 4317 50  0000 C CNN
+F 1 "Nano-Fit" H 3718 4316 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 3800 4550 50  0001 C CNN
+F 3 "~" H 3800 4550 50  0001 C CNN
+F 4 "105309-1102" H 3800 4550 50  0001 C CNN "Part"
+	1    3800 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4000 4450 4200 4450
+Wire Wire Line
+	4200 4550 4000 4550
+Text Label 4000 4450 0    50   ~ 0
+HV+
+Text Label 4000 4550 0    50   ~ 0
+HV-
+Wire Wire Line
+	4300 4400 4200 4400
+Wire Wire Line
+	4200 4400 4200 4450
+Wire Wire Line
+	4200 4550 4200 4600
+Wire Wire Line
+	4200 4600 4900 4600
+Wire Wire Line
+	4600 2400 4500 2400
+Wire Wire Line
+	4500 2400 4500 2450
+Wire Wire Line
+	4500 2600 4500 2550
+Wire Wire Line
+	4500 2600 5200 2600
+$Comp
+L Device:D_Zener D6
+U 1 1 5E428EFE
+P 4450 5000
+F 0 "D6" H 4450 5216 50  0000 C CNN
+F 1 "51V" H 4450 5125 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4450 5000 50  0001 C CNN
+F 3 "~" H 4450 5000 50  0001 C CNN
+F 4 "1N5942B" H 4450 5000 50  0001 C CNN "Part"
+	1    4450 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4400 4300 5000
+Connection ~ 4300 4400
+Wire Wire Line
+	5200 4600 4900 4600
+Connection ~ 4900 4600
+Wire Wire Line
+	4900 4400 5200 4400
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5E460E8B
+P 4100 2550
+F 0 "J1" H 4018 2317 50  0000 C CNN
+F 1 "Nano-Fit" H 4018 2316 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 4100 2550 50  0001 C CNN
+F 3 "~" H 4100 2550 50  0001 C CNN
+F 4 "105309-1102" H 4100 2550 50  0001 C CNN "Part"
+	1    4100 2550
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
