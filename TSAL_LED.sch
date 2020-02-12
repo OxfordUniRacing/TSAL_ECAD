@@ -1291,22 +1291,8 @@ Wire Wire Line
 Wire Wire Line
 	8150 5750 8450 5750
 Connection ~ 8150 5750
-$Comp
-L Device:D D21
-U 1 1 5E420778
-P 9400 5750
-F 0 "D21" H 9400 5534 50  0000 C CNN
-F 1 "D" H 9400 5625 50  0000 C CNN
-F 2 "project:d0214ba" H 9400 5750 50  0001 C CNN
-F 3 "https://www.mouser.co.uk/datasheet/2/268/Microsemi_LSM115J-1592122.pdf" H 9400 5750 50  0001 C CNN
-F 4 "LSM115JE3/TR13 " H 9400 5750 50  0001 C CNN "Part"
-	1    9400 5750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	9150 5750 9250 5750
-Wire Wire Line
-	9550 5750 9750 5750
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5E44E918
@@ -1320,7 +1306,6 @@ F 3 "~" H 9450 5450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9250 5450 9250 5750
-Connection ~ 9250 5750
 Wire Wire Line
 	8250 4700 8600 4700
 Wire Wire Line
@@ -1328,19 +1313,20 @@ Wire Wire Line
 $Comp
 L Device:Q_PMOS_GSD Q1
 U 1 1 5E5D61D7
-P 8800 4800
-F 0 "Q1" V 9142 4800 50  0000 C CNN
-F 1 "Q_PMOS_GSD" V 9051 4800 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9000 4900 50  0001 C CNN
-F 3 "https://www.mouser.co.uk/datasheet/2/115/DMP1045UQ-1274713.pdf" H 8800 4800 50  0001 C CNN
-F 4 "DMP1045UQ-7 " V 8800 4800 50  0001 C CNN "Part"
-	1    8800 4800
-	0    -1   -1   0   
+P 8800 4600
+F 0 "Q1" V 9142 4600 50  0000 C CNN
+F 1 "Q_PMOS_GSD" V 9051 4600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9000 4700 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/115/DMP1045UQ-1274713.pdf" H 8800 4600 50  0001 C CNN
+F 4 "DMP1045UQ-7 " V 8800 4600 50  0001 C CNN "Part"
+	1    8800 4600
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8800 5000 8800 5100
-Wire Wire Line
-	8800 5100 9150 5100
-Text Label 9150 5100 0    50   ~ 0
+	8800 4400 9150 4400
+Text Label 9150 4400 0    50   ~ 0
 RLED-
+Wire Wire Line
+	9250 5750 9750 5750
+Connection ~ 9250 5750
 $EndSCHEMATC
