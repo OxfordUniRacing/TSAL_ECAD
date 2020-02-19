@@ -130,6 +130,10 @@
     (add_net "Net-(D6-Pad1)")
     (add_net "Net-(J4-Pad2)")
     (add_net "Net-(R4-Pad1)")
+    (add_net "Net-(U1-Pad3)")
+    (add_net "Net-(U1-Pad6)")
+    (add_net "Net-(U2-Pad3)")
+    (add_net "Net-(U2-Pad6)")
   )
 
   (net_class HV ""
@@ -257,7 +261,7 @@
     (fp_text reference D3 (at 5.08 -2.47) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 30V (at 5.08 2.47) (layer F.Fab)
+    (fp_text value 33V (at 5.08 2.47) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user K (at 0 -2.1) (layer F.SilkS)
