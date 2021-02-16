@@ -404,10 +404,10 @@ L Connector_Generic:Conn_01x02 J3
 U 1 1 5DEBAF62
 P 3500 4550
 F 0 "J3" H 3418 4317 50  0000 C CNN
-F 1 "Nano-Fit" H 3418 4316 50  0001 C CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 3500 4550 50  0001 C CNN
+F 1 "Micro-Fit" H 3418 4316 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 3500 4550 50  0001 C CNN
 F 3 "~" H 3500 4550 50  0001 C CNN
-F 4 "105309-1102" H 3500 4550 50  0001 C CNN "Part"
+F 4 "43650-0216" H 3500 4550 50  0001 C CNN "Part"
 	1    3500 4550
 	-1   0    0    1   
 $EndComp
@@ -453,10 +453,10 @@ L Connector_Generic:Conn_01x02 J1
 U 1 1 5E460E8B
 P 4100 2550
 F 0 "J1" H 4018 2317 50  0000 C CNN
-F 1 "Nano-Fit" H 4018 2316 50  0001 C CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical" H 4100 2550 50  0001 C CNN
+F 1 "Micro-Fit" H 4018 2316 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 4100 2550 50  0001 C CNN
 F 3 "~" H 4100 2550 50  0001 C CNN
-F 4 "105309-1102" H 4100 2550 50  0001 C CNN "Part"
+F 4 "43650-0216" H 4100 2550 50  0001 C CNN "Part"
 	1    4100 2550
 	-1   0    0    1   
 $EndComp
