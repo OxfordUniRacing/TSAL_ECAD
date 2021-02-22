@@ -1,4 +1,4 @@
-update=Sat 17 Oct 2020 13:04:57
+update=Mon 22 Feb 2021 12:01:48
 version=1
 last_client=kicad
 [general]
@@ -33,8 +33,8 @@ TrackWidth2=0.2
 TrackWidth3=0.4
 TrackWidth4=0.6
 TrackWidth5=1
-ViaDiameter1=0.8
-ViaDrill1=0.4
+ViaDiameter1=0.6
+ViaDrill1=0.3
 ViaDiameter2=0.8
 ViaDrill2=0.4
 ViaDiameter3=1.2
@@ -237,8 +237,8 @@ Enabled=0
 Name=Default
 Clearance=0.2
 TrackWidth=0.2
-ViaDiameter=0.8
-ViaDrill=0.4
+ViaDiameter=0.6
+ViaDrill=0.3
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
@@ -246,7 +246,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=our.kicad_wks
+PageLayoutDescrFile=../our.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

@@ -1,0 +1,25 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA180A
+D Low- and High-Side Voltage Output, Current-Sense Amplifiers
+K current sense shunt monitor
+F https://www.ti.com/lit/ds/symlink/ina180.pdf
+$ENDCMP
+#
+$CMP LM5117PMH
+D Wide Input Range Synchronous Buck Controller with Analog Current Monitor
+F https://www.ti.com/lit/ds/symlink/lm5117.pdf
+$ENDCMP
+#
+$CMP NMOS_SuperSO8
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.7A Switch Current, 5V Output Voltage, VSON-10
+K Buck-Boost fixed 5V converter
+F http://www.ti.com/lit/ds/symlink/tps63000.pdf
+$ENDCMP
+#
+$CMP TPS63020
+D High Efficiency Single Inductor Buck-boost Converter with 4-A Switches
+F https://www.ti.com/lit/ds/symlink/tps63020.pdf
+$ENDCMP
+#
+#End Doc Library
