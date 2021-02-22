@@ -2572,7 +2572,7 @@ L Device:C_Small C27
 U 1 1 603F2A8E
 P 1650 3900
 F 0 "C27" V 1600 3950 50  0000 L CNN
-F 1 "150pF" V 1600 3850 50  0000 R CNN
+F 1 "1nF" V 1600 3850 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 1650 3900 50  0001 C CNN
 F 3 "~" H 1650 3900 50  0001 C CNN
 	1    1650 3900
@@ -2696,7 +2696,7 @@ $EndComp
 Text Notes 2700 3450 0    50   ~ 0
 Buck\nconverter\nfor\ncharging
 Text Notes 3500 6000 0    50   ~ 0
-Layout notes:\n- Keep current loops short:\nInput Cap -> HS FET -> LS FET -> Sense R -> GND -> Input Cap (important)\nInductor -> Output Cap -> GND -> Sense R -> LS FET -> Inductor (less important)\n- Keep switching FETs close to controller\n- Consider thermals for switching FETs and balancing BJTs
+Buck converter layout notes:\n- Keep current loops short:\nInput Cap -> HS FET -> LS FET -> Sense R -> GND -> Input Cap (important)\nInductor -> Output Cap -> GND -> Sense R -> LS FET -> Inductor (less important)\n- Keep switching FETs close to controller\n- Keep compensation network close to controller\n- Consider thermals for switching FETs and balancing BJTs
 Text Notes 6400 4050 0    50   ~ 0
 Supercapacitor\npower backup
 Connection ~ 10500 1800
