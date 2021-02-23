@@ -615,25 +615,25 @@ $EndComp
 $Comp
 L Device:R_Small R3
 U 1 1 5DA7E3C4
-P 8500 4900
-F 0 "R3" H 8559 4946 50  0000 L CNN
-F 1 "10k" H 8559 4855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8430 4900 50  0001 C CNN
-F 3 "~" H 8500 4900 50  0001 C CNN
-F 4 "" H 8500 4900 50  0001 C CNN "Part"
-	1    8500 4900
+P 8500 4850
+F 0 "R3" H 8559 4896 50  0000 L CNN
+F 1 "10k" H 8559 4805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8430 4850 50  0001 C CNN
+F 3 "~" H 8500 4850 50  0001 C CNN
+F 4 "" H 8500 4850 50  0001 C CNN "Part"
+	1    8500 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R5
 U 1 1 5DA7E605
-P 8500 5100
-F 0 "R5" H 8559 5146 50  0000 L CNN
-F 1 "100k" H 8559 5055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8430 5100 50  0001 C CNN
-F 3 "~" H 8500 5100 50  0001 C CNN
-F 4 "" H 8500 5100 50  0001 C CNN "Part"
-	1    8500 5100
+P 8500 5150
+F 0 "R5" H 8559 5196 50  0000 L CNN
+F 1 "100k" H 8559 5105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8430 5150 50  0001 C CNN
+F 3 "~" H 8500 5150 50  0001 C CNN
+F 4 "" H 8500 5150 50  0001 C CNN "Part"
+	1    8500 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -652,8 +652,6 @@ F 4 "GRM21BR71E225KE11" H 8500 5600 50  0001 C CNN "Part"
 	1    8500 5600
 	1    0    0    -1  
 $EndComp
-Text Notes 7950 4250 0    50   ~ 0
-Red light blink timer\n3Hz frequency\n52% duty cycle
 Wire Wire Line
 	7800 4500 7800 4600
 Connection ~ 7800 4500
@@ -678,9 +676,6 @@ Wire Wire Line
 	6200 6200 6650 6200
 Wire Wire Line
 	6200 6200 6200 6300
-Connection ~ 8500 5000
-Wire Wire Line
-	8500 5200 8500 5450
 Wire Wire Line
 	8500 5450 8300 5450
 Wire Wire Line
@@ -730,7 +725,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 5750 8500 5700
 Wire Wire Line
-	8500 4500 8500 4800
+	8500 4500 8500 4750
 Wire Wire Line
 	7800 4150 7800 4500
 Wire Wire Line
@@ -1087,4 +1082,13 @@ Wire Wire Line
 Connection ~ 9250 4600
 Wire Wire Line
 	9250 4600 9300 4600
+Text Notes 7950 4250 0    50   ~ 0
+Red light blink timer\n3.1Hz frequency\n52% duty cycle
+Wire Wire Line
+	8500 5250 8500 5450
+Wire Wire Line
+	8500 5050 8500 5000
+Connection ~ 8500 5000
+Wire Wire Line
+	8500 5000 8500 4950
 $EndSCHEMATC
