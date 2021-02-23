@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name project)(type KiCad)(uri ${KIPRJMOD}/../project.pretty)(options "")(descr ""))
+  (lib (name TSAL_LED_V2)(type KiCad)(uri /home/hugo_dev/our/ecad/TSAL_ECAD/TSAL_LED_V2)(options "")(descr ""))
 )
