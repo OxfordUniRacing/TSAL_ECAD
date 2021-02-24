@@ -1494,7 +1494,7 @@ F 4 "DNP" H 8050 4200 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Opamp_Quad U8
+L TSAL-rescue:Opamp_Quad-Device U8
 U 3 1 616C69E2
 P 9250 5400
 F 0 "U8" H 9450 5300 50  0000 C CNN
@@ -1506,7 +1506,7 @@ F 4 "TLV9104IPWR" H 9250 5400 50  0001 C CNN "Part"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Opamp_Quad U8
+L TSAL-rescue:Opamp_Quad-Device U8
 U 4 1 616C7F69
 P 9250 6000
 F 0 "U8" H 9450 5900 50  0000 C CNN
@@ -1518,7 +1518,7 @@ F 4 "TLV9104IPWR" H 9250 6000 50  0001 C CNN "Part"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Opamp_Quad U8
+L TSAL-rescue:Opamp_Quad-Device U8
 U 2 1 616C4A34
 P 9250 4700
 F 0 "U8" H 9450 4600 50  0000 C CNN
@@ -1530,7 +1530,7 @@ F 4 "TLV9104IPWR" H 9250 4700 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Opamp_Quad U8
+L TSAL-rescue:Opamp_Quad-Device U8
 U 1 1 615ADA58
 P 9250 3700
 F 0 "U8" H 9450 3600 50  0000 C CNN
@@ -1593,7 +1593,7 @@ U 1 1 610B5D4D
 P 10050 1800
 F 0 "F2" V 9763 1800 50  0000 C CNN
 F 1 "1A" V 9854 1800 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Littelfuse_Nano2_154x" V 9980 1800 50  0001 C CNN
+F 2 "footprints_archive_old_design:Fuseholder_Littelfuse_Nano2_154x" V 9980 1800 50  0001 C CNN
 F 3 "~" H 10050 1800 50  0001 C CNN
 F 4 "154001.0" V 9945 1800 50  0000 C CNN "Part"
 	1    10050 1800
@@ -1735,18 +1735,6 @@ F 3 "~" H 3800 1650 50  0001 C CNN
 F 4 "25V" H 3800 1650 50  0001 C CNN "Comment"
 	1    3800 1650
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L L1
-U 1 1 603C095D
-P 8600 1450
-F 0 "L1" V 8790 1450 50  0000 C CNN
-F 1 "1uH" V 8699 1450 50  0000 C CNN
-F 2 "Inductor_SMD:L_1206_3216Metric" H 8600 1450 50  0001 C CNN
-F 3 "~" H 8600 1450 50  0001 C CNN
-F 4 "LB3218T1R0M" V 8600 1450 50  0001 C CNN "Part"
-	1    8600 1450
-	0    -1   -1   0   
 $EndComp
 $Comp
 L project:TPS63020 U5
@@ -2124,7 +2112,7 @@ F 4 "INA180A3IDBV" H 2550 4300 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Opamp_Quad U8
+L TSAL-rescue:Opamp_Quad-Device U8
 U 5 1 616A1882
 P 6100 7000
 F 0 "U8" H 6058 7046 50  0000 L CNN
@@ -2153,7 +2141,7 @@ U 1 1 5DEBDC74
 P 1250 1500
 F 0 "F1" V 963 1500 50  0000 C CNN
 F 1 "6A" V 1054 1500 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Littelfuse_Nano2_154x" V 1180 1500 50  0001 C CNN
+F 2 "footprints_archive_old_design:Fuseholder_Littelfuse_Nano2_154x" V 1180 1500 50  0001 C CNN
 F 3 "~" H 1250 1500 50  0001 C CNN
 F 4 "15406.3" V 1145 1500 50  0000 C CNN "Part"
 	1    1250 1500
@@ -2194,7 +2182,7 @@ F 3 "~" H 3250 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky_Small_Filled D3
+L TSAL-rescue:D_Schottky_Small_Filled-Device D3
 U 1 1 602CFF2F
 P 3250 3750
 F 0 "D3" V 3250 3680 50  0000 R CNN
@@ -2379,9 +2367,11 @@ F 3 "~" H 3600 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Polarized_US C33
+L TSAL-rescue:C_Polarized_US-Device C33
 U 1 1 60398AFC
 P 6200 4400
+AR Path="/60398AFC" Ref="C33"  Part="1" 
+AR Path="/5DE07D62/60398AFC" Ref="C33"  Part="1" 
 F 0 "C33" H 6315 4446 50  0000 L CNN
 F 1 "200F" H 6315 4355 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn" H 6200 4400 50  0001 C CNN
@@ -2391,9 +2381,11 @@ F 4 "SCCX50B207SSB" H 6200 4400 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Polarized_US C36
+L TSAL-rescue:C_Polarized_US-Device C36
 U 1 1 60399785
 P 6200 4800
+AR Path="/60399785" Ref="C36"  Part="1" 
+AR Path="/5DE07D62/60399785" Ref="C36"  Part="1" 
 F 0 "C36" H 6315 4846 50  0000 L CNN
 F 1 "200F" H 6315 4755 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn" H 6200 4800 50  0001 C CNN
@@ -2403,9 +2395,11 @@ F 4 "SCCX50B207SSB" H 6200 4800 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Polarized_US C34
+L TSAL-rescue:C_Polarized_US-Device C34
 U 1 1 6039DE0A
 P 6700 4400
+AR Path="/6039DE0A" Ref="C34"  Part="1" 
+AR Path="/5DE07D62/6039DE0A" Ref="C34"  Part="1" 
 F 0 "C34" H 6815 4446 50  0000 L CNN
 F 1 "200F" H 6815 4355 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn" H 6700 4400 50  0001 C CNN
@@ -2416,9 +2410,11 @@ F 5 "SCCX50B207SSB" H 6700 4400 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Polarized_US C37
+L TSAL-rescue:C_Polarized_US-Device C37
 U 1 1 6039DE10
 P 6700 4800
+AR Path="/6039DE10" Ref="C37"  Part="1" 
+AR Path="/5DE07D62/6039DE10" Ref="C37"  Part="1" 
 F 0 "C37" H 6815 4846 50  0000 L CNN
 F 1 "200F" H 6815 4755 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn" H 6700 4800 50  0001 C CNN
@@ -2440,9 +2436,11 @@ F 3 "~" H 1500 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Polarized_US C18
+L TSAL-rescue:C_Polarized_US-Device C18
 U 1 1 604522CD
 P 2800 2550
+AR Path="/604522CD" Ref="C18"  Part="1" 
+AR Path="/5DE07D62/604522CD" Ref="C18"  Part="1" 
 F 0 "C18" H 2915 2596 50  0000 L CNN
 F 1 "220uF" H 2915 2505 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 2800 2550 50  0001 C CNN
@@ -2578,9 +2576,11 @@ F 3 "~" H 2350 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Polarized_US C19
+L TSAL-rescue:C_Polarized_US-Device C19
 U 1 1 6136B917
 P 3500 2550
+AR Path="/6136B917" Ref="C19"  Part="1" 
+AR Path="/5DE07D62/6136B917" Ref="C19"  Part="1" 
 F 0 "C19" H 3615 2596 50  0000 L CNN
 F 1 "220uF" H 3615 2505 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 3500 2550 50  0001 C CNN
@@ -2832,6 +2832,18 @@ F 2 "Inductor_SMD:L_Bourns_SRP1245A" H 4350 4100 50  0001 C CNN
 F 3 "~" H 4350 4100 50  0001 C CNN
 F 4 "SRP1265A-3R3M" V 4350 4100 50  0001 C CNN "Part"
 	1    4350 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 603C095D
+P 8600 1450
+F 0 "L1" V 8790 1450 50  0000 C CNN
+F 1 "1.5uH" V 8699 1450 50  0000 C CNN
+F 2 "Inductor_SMD:L_Bourns-SRN4018" H 8600 1450 50  0001 C CNN
+F 3 "~" H 8600 1450 50  0001 C CNN
+F 4 "SRN4018-1R5Y" V 8600 1450 50  0001 C CNN "Part"
+	1    8600 1450
 	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
