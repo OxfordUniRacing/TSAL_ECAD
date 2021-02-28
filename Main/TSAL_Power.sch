@@ -1208,7 +1208,7 @@ U 1 1 610B5D4D
 P 10050 1800
 F 0 "F2" V 9763 1800 50  0000 C CNN
 F 1 "1A" V 9854 1800 50  0000 C CNN
-F 2 "footprints_archive_old_design:Fuseholder_Littelfuse_Nano2_154x" V 9980 1800 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Littelfuse_Nano2_154x" V 9980 1800 50  0001 C CNN
 F 3 "~" H 10050 1800 50  0001 C CNN
 F 4 "154001.0" V 9945 1800 50  0000 C CNN "Part"
 	1    10050 1800
@@ -1678,7 +1678,7 @@ U 1 1 5DEBDC74
 P 1250 1500
 F 0 "F1" V 963 1500 50  0000 C CNN
 F 1 "6A" V 1054 1500 50  0000 C CNN
-F 2 "footprints_archive_old_design:Fuseholder_Littelfuse_Nano2_154x" V 1180 1500 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Littelfuse_Nano2_154x" V 1180 1500 50  0001 C CNN
 F 3 "~" H 1250 1500 50  0001 C CNN
 F 4 "15406.3" V 1145 1500 50  0000 C CNN "Part"
 	1    1250 1500
