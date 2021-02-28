@@ -1111,9 +1111,11 @@ F 3 "~" H 8650 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TSAL-rescue:Opamp_Quad-Device U8
+L Device:Opamp_Quad U8
 U 3 1 616C69E2
 P 9250 5400
+AR Path="/616C69E2" Ref="U8"  Part="3" 
+AR Path="/5DE07D62/616C69E2" Ref="U8"  Part="3" 
 F 0 "U8" H 9450 5300 50  0000 C CNN
 F 1 "TLV9104" H 9350 5200 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9250 5400 50  0001 C CNN
@@ -1123,9 +1125,11 @@ F 4 "TLV9104IPWR" H 9250 5400 50  0001 C CNN "Part"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L TSAL-rescue:Opamp_Quad-Device U8
+L Device:Opamp_Quad U8
 U 4 1 616C7F69
 P 9250 6000
+AR Path="/616C7F69" Ref="U8"  Part="4" 
+AR Path="/5DE07D62/616C7F69" Ref="U8"  Part="4" 
 F 0 "U8" H 9450 5900 50  0000 C CNN
 F 1 "TLV9104" H 9350 5800 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9250 6000 50  0001 C CNN
@@ -1135,9 +1139,11 @@ F 4 "TLV9104IPWR" H 9250 6000 50  0001 C CNN "Part"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L TSAL-rescue:Opamp_Quad-Device U8
+L Device:Opamp_Quad U8
 U 2 1 616C4A34
 P 9250 4700
+AR Path="/616C4A34" Ref="U8"  Part="2" 
+AR Path="/5DE07D62/616C4A34" Ref="U8"  Part="2" 
 F 0 "U8" H 9450 4600 50  0000 C CNN
 F 1 "TLV9104" H 9400 4500 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9250 4700 50  0001 C CNN
@@ -1147,9 +1153,11 @@ F 4 "TLV9104IPWR" H 9250 4700 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TSAL-rescue:Opamp_Quad-Device U8
+L Device:Opamp_Quad U8
 U 1 1 615ADA58
 P 9250 3700
+AR Path="/615ADA58" Ref="U8"  Part="1" 
+AR Path="/5DE07D62/615ADA58" Ref="U8"  Part="1" 
 F 0 "U8" H 9450 3600 50  0000 C CNN
 F 1 "TLV9104" H 9400 3500 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9250 3700 50  0001 C CNN
@@ -1639,9 +1647,11 @@ F 4 "INA180A3IDBV" H 2550 4300 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TSAL-rescue:Opamp_Quad-Device U8
+L Device:Opamp_Quad U8
 U 5 1 616A1882
 P 6100 7000
+AR Path="/616A1882" Ref="U8"  Part="5" 
+AR Path="/5DE07D62/616A1882" Ref="U8"  Part="5" 
 F 0 "U8" H 6058 7046 50  0000 L CNN
 F 1 "TLV9104" H 6058 6955 50  0000 L CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6100 7000 50  0001 C CNN
@@ -1698,9 +1708,11 @@ F 3 "~" H 2050 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TSAL-rescue:D_Schottky_Small_Filled-Device D3
+L Device:D_Schottky_Small_Filled D3
 U 1 1 602CFF2F
 P 3250 3750
+AR Path="/602CFF2F" Ref="D3"  Part="1" 
+AR Path="/5DE07D62/602CFF2F" Ref="D3"  Part="1" 
 F 0 "D3" V 3250 3680 50  0000 R CNN
 F 1 "~" V 3205 3680 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" V 3250 3750 50  0001 C CNN
@@ -1883,7 +1895,7 @@ F 3 "~" H 3600 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TSAL-rescue:C_Polarized_US-Device C?
+L Device:C_Polarized C?
 U 1 1 60398AFC
 P 6200 4400
 AR Path="/60398AFC" Ref="C?"  Part="1" 
@@ -1897,7 +1909,7 @@ F 4 "SCCX50B207SSB" H 6200 4400 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TSAL-rescue:C_Polarized_US-Device C?
+L Device:C_Polarized C?
 U 1 1 60399785
 P 6200 4800
 AR Path="/60399785" Ref="C?"  Part="1" 
@@ -1911,7 +1923,7 @@ F 4 "SCCX50B207SSB" H 6200 4800 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TSAL-rescue:C_Polarized_US-Device C?
+L Device:C_Polarized C?
 U 1 1 6039DE0A
 P 6700 4400
 AR Path="/6039DE0A" Ref="C?"  Part="1" 
@@ -1926,7 +1938,7 @@ F 5 "SCCX50B207SSB" H 6700 4400 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TSAL-rescue:C_Polarized_US-Device C?
+L Device:C_Polarized C?
 U 1 1 6039DE10
 P 6700 4800
 AR Path="/6039DE10" Ref="C?"  Part="1" 
@@ -1952,7 +1964,7 @@ F 3 "~" H 1500 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TSAL-rescue:C_Polarized_US-Device C?
+L Device:C_Polarized C?
 U 1 1 604522CD
 P 2800 2550
 AR Path="/604522CD" Ref="C?"  Part="1" 
@@ -2081,7 +2093,7 @@ F 3 "~" H 1650 3900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TSAL-rescue:C_Polarized_US-Device C?
+L Device:C_Polarized C?
 U 1 1 6136B917
 P 3500 2550
 AR Path="/6136B917" Ref="C?"  Part="1" 
