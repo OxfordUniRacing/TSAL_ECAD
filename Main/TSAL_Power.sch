@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:VCC #PWR023
+L archive:power_VCC #PWR023
 U 1 1 5DEC8DA5
 P 10500 1800
 F 0 "#PWR023" H 10500 1650 50  0001 C CNN
@@ -42,7 +42,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 4500 3800 4500
 $Comp
-L power:GNDA #PWR042
+L archive:power_GNDA #PWR042
 U 1 1 602F46B3
 P 2050 4800
 F 0 "#PWR042" H 2050 4550 50  0001 C CNN
@@ -125,7 +125,7 @@ Connection ~ 1950 4100
 Wire Wire Line
 	1950 4100 2150 4100
 $Comp
-L power:GNDA #PWR041
+L archive:power_GNDA #PWR041
 U 1 1 6042BD35
 P 1650 4800
 F 0 "#PWR041" H 1650 4550 50  0001 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 1650 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR047
+L archive:power_GNDA #PWR047
 U 1 1 602EF2FA
 P 2450 5000
 F 0 "#PWR047" H 2450 4750 50  0001 C CNN
@@ -199,7 +199,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2600 2300 2600
 $Comp
-L power:+5V #PWR026
+L archive:power_+5V #PWR026
 U 1 1 60687AF6
 P 2000 2200
 F 0 "#PWR026" H 2000 2050 50  0001 C CNN
@@ -210,7 +210,7 @@ F 3 "" H 2000 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR033
+L archive:power_GNDA #PWR033
 U 1 1 6069044F
 P 2000 2800
 F 0 "#PWR033" H 2000 2550 50  0001 C CNN
@@ -313,7 +313,7 @@ Wire Wire Line
 Text Notes 1300 5750 0    50   ~ 0
 Input current limit\n5A
 $Comp
-L power:GNDA #PWR058
+L archive:power_GNDA #PWR058
 U 1 1 60E95BEB
 P 2300 7200
 F 0 "#PWR058" H 2300 6950 50  0001 C CNN
@@ -396,7 +396,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 6300 2000 6300
 $Comp
-L power:GNDA #PWR057
+L archive:power_GNDA #PWR057
 U 1 1 603589B5
 P 2300 6400
 F 0 "#PWR057" H 2300 6150 50  0001 C CNN
@@ -416,7 +416,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 4800 3100 4800
 $Comp
-L power:GNDA #PWR049
+L archive:power_GNDA #PWR049
 U 1 1 602EB60D
 P 3250 5000
 F 0 "#PWR049" H 3250 4750 50  0001 C CNN
@@ -478,7 +478,7 @@ Wire Wire Line
 	1350 4400 1650 4400
 Connection ~ 1650 4400
 $Comp
-L power:GNDA #PWR046
+L archive:power_GNDA #PWR046
 U 1 1 6192AAAC
 P 1350 5000
 F 0 "#PWR046" H 1350 4750 50  0001 C CNN
@@ -494,7 +494,7 @@ Connection ~ 1050 4300
 Wire Wire Line
 	1050 4300 2150 4300
 $Comp
-L power:GNDA #PWR045
+L archive:power_GNDA #PWR045
 U 1 1 61983865
 P 1050 5000
 F 0 "#PWR045" H 1050 4750 50  0001 C CNN
@@ -547,7 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 3200 4000 3200
 $Comp
-L power:+5V #PWR021
+L archive:power_+5V #PWR021
 U 1 1 6034E602
 P 6100 1500
 F 0 "#PWR021" H 6100 1350 50  0001 C CNN
@@ -682,7 +682,7 @@ FB
 Wire Wire Line
 	5150 4700 5300 4700
 $Comp
-L power:GNDA #PWR044
+L archive:power_GNDA #PWR044
 U 1 1 6039359E
 P 5300 4900
 F 0 "#PWR044" H 5300 4650 50  0001 C CNN
@@ -750,7 +750,7 @@ CAP_D1
 Wire Wire Line
 	9550 6100 9750 6100
 $Comp
-L power:+5V #PWR054
+L archive:power_+5V #PWR054
 U 1 1 6099A033
 P 10050 5900
 F 0 "#PWR054" H 10050 5750 50  0001 C CNN
@@ -764,7 +764,7 @@ Wire Wire Line
 	10050 6100 9950 6100
 Connection ~ 10050 6100
 $Comp
-L power:+5V #PWR052
+L archive:power_+5V #PWR052
 U 1 1 6095E5CD
 P 10050 5300
 F 0 "#PWR052" H 10050 5150 50  0001 C CNN
@@ -873,90 +873,90 @@ Wire Notes Line
 Text Notes 3550 1400 0    50   ~ 0
 5V aux supply\nfor power supply\nduring charge
 $Comp
-L Device:R_Small R44
+L archive:Device_R_Small R44
 U 1 1 609E8782
 P 8750 6000
 F 0 "R44" V 8946 6000 50  0000 C CNN
 F 1 "1k" V 8855 6000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8750 6000 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 8750 6000 50  0001 C CNN
 F 3 "~" H 8750 6000 50  0001 C CNN
 	1    8750 6000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R38
+L archive:Device_R_Small R38
 U 1 1 609E0CC3
 P 8750 5400
 F 0 "R38" V 8946 5400 50  0000 C CNN
 F 1 "1k" V 8855 5400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8750 5400 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 8750 5400 50  0001 C CNN
 F 3 "~" H 8750 5400 50  0001 C CNN
 	1    8750 5400
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_NPN_Darlington_BCE Q9
+L archive:Device_Q_NPN_Darlington_BCE Q9
 U 1 1 6071435A
 P 7600 4400
 F 0 "Q9" H 7550 4500 50  0000 R CNN
 F 1 "MJD122" H 7600 4250 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 7800 4500 50  0001 C CNN
+F 2 "archive:TO-252-2" H 7800 4500 50  0001 C CNN
 F 3 "~" H 7600 4400 50  0001 C CNN
 F 4 "MJD122" H 7600 4400 50  0001 C CNN "Part"
 	1    7600 4400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C40
+L archive:Device_C_Small C40
 U 1 1 60AD2212
 P 8450 6100
 F 0 "C40" H 8500 6150 50  0000 L CNN
 F 1 "0.1uF" H 8500 6050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8450 6100 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 8450 6100 50  0001 C CNN
 F 3 "~" H 8450 6100 50  0001 C CNN
 	1    8450 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C39
+L archive:Device_C_Small C39
 U 1 1 60AD14DE
 P 8450 5500
 F 0 "C39" H 8500 5550 50  0000 L CNN
 F 1 "0.1uF" H 8500 5450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8450 5500 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 8450 5500 50  0001 C CNN
 F 3 "~" H 8450 5500 50  0001 C CNN
 	1    8450 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R47
+L archive:Device_R_Small R47
 U 1 1 60AC8AE2
 P 8100 6100
 F 0 "R47" H 8041 6054 50  0000 R CNN
 F 1 "100k" H 8041 6145 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8100 6100 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 8100 6100 50  0001 C CNN
 F 3 "~" H 8100 6100 50  0001 C CNN
 	1    8100 6100
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R40
+L archive:Device_R_Small R40
 U 1 1 60AC0E2F
 P 8100 5500
 F 0 "R40" H 8041 5454 50  0000 R CNN
 F 1 "100k" H 8041 5545 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8100 5500 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 8100 5500 50  0001 C CNN
 F 3 "~" H 8100 5500 50  0001 C CNN
 	1    8100 5500
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP10
+L archive:Connector_TestPoint TP10
 U 1 1 60A043CD
 P 8100 5950
 F 0 "TP10" H 8158 6068 50  0000 L CNN
 F 1 "~" H 8158 5977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 8300 5950 50  0001 C CNN
+F 2 "archive:TestPoint_Loop_D2.50mm_Drill1.0mm" H 8300 5950 50  0001 C CNN
 F 3 "~" H 8300 5950 50  0001 C CNN
 F 4 "Balance1" H 8158 5977 50  0000 L CNN "Comment"
 F 5 "Keystone 5000" H 8100 5950 50  0001 C CNN "Part"
@@ -965,12 +965,12 @@ F 6 "DNP" H 8100 5950 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP9
+L archive:Connector_TestPoint TP9
 U 1 1 609FB0D9
 P 8100 5350
 F 0 "TP9" H 8158 5468 50  0000 L CNN
 F 1 "~" H 8158 5377 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 8300 5350 50  0001 C CNN
+F 2 "archive:TestPoint_Loop_D2.50mm_Drill1.0mm" H 8300 5350 50  0001 C CNN
 F 3 "~" H 8300 5350 50  0001 C CNN
 F 4 "Balance2" H 8158 5377 50  0000 L CNN "Comment"
 F 5 "Keystone 5000" H 8100 5350 50  0001 C CNN "Part"
@@ -979,512 +979,512 @@ F 6 "DNP" H 8100 5350 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R45
+L archive:Device_R_Small R45
 U 1 1 6099A02A
 P 10050 6000
 F 0 "R45" H 9991 5954 50  0000 R CNN
 F 1 "47k" H 9991 6045 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 10050 6000 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 10050 6000 50  0001 C CNN
 F 3 "~" H 10050 6000 50  0001 C CNN
 	1    10050 6000
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R48
+L archive:Device_R_Small R48
 U 1 1 6099A024
 P 9850 6100
 F 0 "R48" V 10046 6100 50  0000 C CNN
 F 1 "1k" V 9955 6100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9850 6100 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 9850 6100 50  0001 C CNN
 F 3 "~" H 9850 6100 50  0001 C CNN
 	1    9850 6100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R39
+L archive:Device_R_Small R39
 U 1 1 60949550
 P 10050 5400
 F 0 "R39" H 9991 5354 50  0000 R CNN
 F 1 "47k" H 9991 5445 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 10050 5400 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 10050 5400 50  0001 C CNN
 F 3 "~" H 10050 5400 50  0001 C CNN
 	1    10050 5400
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R41
+L archive:Device_R_Small R41
 U 1 1 609032EE
 P 9850 5500
 F 0 "R41" V 10046 5500 50  0000 C CNN
 F 1 "1k" V 9955 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9850 5500 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 9850 5500 50  0001 C CNN
 F 3 "~" H 9850 5500 50  0001 C CNN
 	1    9850 5500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R36
+L archive:Device_R_Small R36
 U 1 1 6081BDC5
 P 8650 4800
 F 0 "R36" V 8546 4800 50  0000 C CNN
 F 1 "10k" V 8455 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8650 4800 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 8650 4800 50  0001 C CNN
 F 3 "~" H 8650 4800 50  0001 C CNN
 	1    8650 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R37
+L archive:Device_R_Small R37
 U 1 1 6081BDBF
 P 8950 4900
 F 0 "R37" H 9009 4854 50  0000 L CNN
 F 1 "10k" H 9009 4945 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8950 4900 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 8950 4900 50  0001 C CNN
 F 3 "~" H 8950 4900 50  0001 C CNN
 	1    8950 4900
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R27
+L archive:Device_R_Small R27
 U 1 1 6081BDB0
 P 9250 4400
 F 0 "R27" V 9446 4400 50  0000 C CNN
 F 1 "10k" V 9355 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9250 4400 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 9250 4400 50  0001 C CNN
 F 3 "~" H 9250 4400 50  0001 C CNN
 	1    9250 4400
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R30
+L archive:Device_R_Small R30
 U 1 1 6081BDA9
 P 8650 4600
 F 0 "R30" V 8846 4600 50  0000 C CNN
 F 1 "10k" V 8755 4600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8650 4600 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 8650 4600 50  0001 C CNN
 F 3 "~" H 8650 4600 50  0001 C CNN
 	1    8650 4600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R22
+L archive:Device_R_Small R22
 U 1 1 607DEDEB
 P 8650 3800
 F 0 "R22" V 8546 3800 50  0000 C CNN
 F 1 "10k" V 8455 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8650 3800 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 8650 3800 50  0001 C CNN
 F 3 "~" H 8650 3800 50  0001 C CNN
 	1    8650 3800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R23
+L archive:Device_R_Small R23
 U 1 1 607D4870
 P 8950 3900
 F 0 "R23" H 9009 3854 50  0000 L CNN
 F 1 "10k" H 9009 3945 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8950 3900 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 8950 3900 50  0001 C CNN
 F 3 "~" H 8950 3900 50  0001 C CNN
 	1    8950 3900
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R19
+L archive:Device_R_Small R19
 U 1 1 607B4E85
 P 9250 3400
 F 0 "R19" V 9446 3400 50  0000 C CNN
 F 1 "10k" V 9355 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9250 3400 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 9250 3400 50  0001 C CNN
 F 3 "~" H 9250 3400 50  0001 C CNN
 	1    9250 3400
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R21
+L archive:Device_R_Small R21
 U 1 1 607A343A
 P 8650 3600
 F 0 "R21" V 8846 3600 50  0000 C CNN
 F 1 "10k" V 8755 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8650 3600 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 8650 3600 50  0001 C CNN
 F 3 "~" H 8650 3600 50  0001 C CNN
 	1    8650 3600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Opamp_Quad U8
+L archive:Device_Opamp_Quad U8
 U 3 1 616C69E2
 P 9250 5400
 AR Path="/616C69E2" Ref="U8"  Part="3" 
 AR Path="/5DE07D62/616C69E2" Ref="U8"  Part="3" 
 F 0 "U8" H 9450 5300 50  0000 C CNN
 F 1 "TLV9104" H 9350 5200 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9250 5400 50  0001 C CNN
+F 2 "archive:TSSOP-14_4.4x5mm_P0.65mm" H 9250 5400 50  0001 C CNN
 F 3 "~" H 9250 5400 50  0001 C CNN
 F 4 "TLV9104IPWR" H 9250 5400 50  0001 C CNN "Part"
 	3    9250 5400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Opamp_Quad U8
+L archive:Device_Opamp_Quad U8
 U 4 1 616C7F69
 P 9250 6000
 AR Path="/616C7F69" Ref="U8"  Part="4" 
 AR Path="/5DE07D62/616C7F69" Ref="U8"  Part="4" 
 F 0 "U8" H 9450 5900 50  0000 C CNN
 F 1 "TLV9104" H 9350 5800 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9250 6000 50  0001 C CNN
+F 2 "archive:TSSOP-14_4.4x5mm_P0.65mm" H 9250 6000 50  0001 C CNN
 F 3 "~" H 9250 6000 50  0001 C CNN
 F 4 "TLV9104IPWR" H 9250 6000 50  0001 C CNN "Part"
 	4    9250 6000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Opamp_Quad U8
+L archive:Device_Opamp_Quad U8
 U 2 1 616C4A34
 P 9250 4700
 AR Path="/616C4A34" Ref="U8"  Part="2" 
 AR Path="/5DE07D62/616C4A34" Ref="U8"  Part="2" 
 F 0 "U8" H 9450 4600 50  0000 C CNN
 F 1 "TLV9104" H 9400 4500 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9250 4700 50  0001 C CNN
+F 2 "archive:TSSOP-14_4.4x5mm_P0.65mm" H 9250 4700 50  0001 C CNN
 F 3 "~" H 9250 4700 50  0001 C CNN
 F 4 "TLV9104IPWR" H 9250 4700 50  0001 C CNN "Part"
 	2    9250 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Opamp_Quad U8
+L archive:Device_Opamp_Quad U8
 U 1 1 615ADA58
 P 9250 3700
 AR Path="/615ADA58" Ref="U8"  Part="1" 
 AR Path="/5DE07D62/615ADA58" Ref="U8"  Part="1" 
 F 0 "U8" H 9450 3600 50  0000 C CNN
 F 1 "TLV9104" H 9400 3500 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9250 3700 50  0001 C CNN
+F 2 "archive:TSSOP-14_4.4x5mm_P0.65mm" H 9250 3700 50  0001 C CNN
 F 3 "~" H 9250 3700 50  0001 C CNN
 F 4 "TLV9104IPWR" H 9250 3700 50  0001 C CNN "Part"
 	1    9250 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L project:NMOS_SuperSO8 Q7
+L archive:project_NMOS_SuperSO8 Q7
 U 1 1 6035B496
 P 5700 4000
 F 0 "Q7" V 5949 4000 50  0000 C CNN
 F 1 "BSC0902NSI" V 6040 4000 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 5900 4100 50  0001 C CNN
+F 2 "archive:TDSON-8-1" H 5900 4100 50  0001 C CNN
 F 3 "~" H 5700 4000 50  0001 C CNN
 F 4 "BSC0902NSI" H 5700 4000 50  0001 C CNN "Part"
 	1    5700 4000
 	0    1    1    0   
 $EndComp
 $Comp
-L project:NMOS_SuperSO8 Q8
+L archive:project_NMOS_SuperSO8 Q8
 U 1 1 602A213F
 P 3900 4300
 F 0 "Q8" H 4100 4300 50  0000 L CNN
 F 1 "BSC0902NSI" H 4050 4200 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 4100 4400 50  0001 C CNN
+F 2 "archive:TDSON-8-1" H 4100 4400 50  0001 C CNN
 F 3 "~" H 3900 4300 50  0001 C CNN
 F 4 "BSC0902NSI" H 3900 4300 50  0001 C CNN "Part"
 	1    3900 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C25
+L archive:Device_C_Small C25
 U 1 1 602DC59B
 P 3500 3400
 F 0 "C25" H 3592 3446 50  0000 L CNN
 F 1 "1uF" H 3592 3355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3500 3400 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 3500 3400 50  0001 C CNN
 F 3 "~" H 3500 3400 50  0001 C CNN
 F 4 "25V" H 3500 3400 50  0001 C CNN "Comment"
 	1    3500 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Fuse F2
+L archive:Device_Fuse F2
 U 1 1 610B5D4D
 P 10050 1800
 F 0 "F2" V 9763 1800 50  0000 C CNN
 F 1 "1A" V 9854 1800 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Littelfuse_Nano2_154x" V 9980 1800 50  0001 C CNN
+F 2 "archive:Fuseholder_Littelfuse_Nano2_154x" V 9980 1800 50  0001 C CNN
 F 3 "~" H 10050 1800 50  0001 C CNN
 F 4 "154001.0" V 9945 1800 50  0000 C CNN "Part"
 	1    10050 1800
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C17
+L archive:Device_C_Small C17
 U 1 1 60FF201A
 P 7200 2450
 F 0 "C17" H 7292 2496 50  0000 L CNN
 F 1 "0.1uF" H 7292 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7200 2450 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 7200 2450 50  0001 C CNN
 F 3 "~" H 7200 2450 50  0001 C CNN
 	1    7200 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C16
+L archive:Device_C_Small C16
 U 1 1 60FDD24B
 P 6000 2450
 F 0 "C16" H 5909 2496 50  0000 R CNN
 F 1 "0.1uF" H 5909 2405 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6000 2450 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 6000 2450 50  0001 C CNN
 F 3 "~" H 6000 2450 50  0001 C CNN
 	1    6000 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R35
+L archive:Device_R_Small R35
 U 1 1 60318A16
 P 5300 4800
 F 0 "R35" H 5359 4846 50  0000 L CNN
 F 1 "12k" H 5359 4755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5300 4800 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 5300 4800 50  0001 C CNN
 F 3 "~" H 5300 4800 50  0001 C CNN
 	1    5300 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R29
+L archive:Device_R_Small R29
 U 1 1 603184C9
 P 5300 4600
 F 0 "R29" H 5359 4646 50  0000 L CNN
 F 1 "68k" H 5359 4555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5300 4600 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 5300 4600 50  0001 C CNN
 F 3 "~" H 5300 4600 50  0001 C CNN
 	1    5300 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R25
+L archive:Device_R_Small R25
 U 1 1 6061FB40
 P 3600 4100
 F 0 "R25" V 3650 4000 50  0000 R CNN
 F 1 "0" V 3600 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 3600 4100 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 3600 4100 50  0001 C CNN
 F 3 "~" H 3600 4100 50  0001 C CNN
 	1    3600 4100
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C31
+L archive:Device_C C31
 U 1 1 60DA729B
 P 5050 4250
 F 0 "C31" H 5050 4350 50  0000 L CNN
 F 1 "100uF" H 5050 4150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 5088 4100 50  0001 C CNN
+F 2 "archive:C_1210_3225Metric" H 5088 4100 50  0001 C CNN
 F 3 "~" H 5050 4250 50  0001 C CNN
 F 4 "6.3V" H 5050 4250 50  0001 C CNN "Comment"
 	1    5050 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C30
+L archive:Device_C C30
 U 1 1 60D93790
 P 4800 4250
 F 0 "C30" H 4800 4350 50  0000 L CNN
 F 1 "100uF" H 4800 4150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 4838 4100 50  0001 C CNN
+F 2 "archive:C_1210_3225Metric" H 4838 4100 50  0001 C CNN
 F 3 "~" H 4800 4250 50  0001 C CNN
 F 4 "6.3V" H 4800 4250 50  0001 C CNN "Comment"
 	1    4800 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C29
+L archive:Device_C C29
 U 1 1 60D6D1C9
 P 4550 4250
 F 0 "C29" H 4550 4350 50  0000 L CNN
 F 1 "100uF" H 4550 4150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 4588 4100 50  0001 C CNN
+F 2 "archive:C_1210_3225Metric" H 4588 4100 50  0001 C CNN
 F 3 "~" H 4550 4250 50  0001 C CNN
 F 4 "6.3V" H 4550 4250 50  0001 C CNN "Comment"
 	1    4550 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L archive:Device_C C7
 U 1 1 60AA1F4D
 P 3800 1650
 F 0 "C7" H 3800 1750 50  0000 L CNN
 F 1 "10uF" H 3800 1550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3838 1500 50  0001 C CNN
+F 2 "archive:C_1210_3225Metric" H 3838 1500 50  0001 C CNN
 F 3 "~" H 3800 1650 50  0001 C CNN
 F 4 "25V" H 3800 1650 50  0001 C CNN "Comment"
 	1    3800 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L project:TPS63020 U5
+L archive:project_TPS63020 U5
 U 1 1 6033F5B6
 P 8600 2000
 F 0 "U5" H 8300 2450 50  0000 L CNN
 F 1 "TPS63020" H 8900 2450 50  0000 R CNN
-F 2 "project:TPS63020" H 9450 1650 50  0001 C CNN
+F 2 "archive:TPS63020" H 9450 1650 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tps63020.pdf" H 8300 2450 50  0001 C CNN
 F 4 "TPS63020" H 8600 2000 50  0001 C CNN "Part"
 	1    8600 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C13
+L archive:Device_C C13
 U 1 1 604CBB7E
 P 9400 1950
 F 0 "C13" H 9400 2050 50  0000 L CNN
 F 1 "10uF" H 9400 1850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9438 1800 50  0001 C CNN
+F 2 "archive:C_0805_2012Metric" H 9438 1800 50  0001 C CNN
 F 3 "~" H 9400 1950 50  0001 C CNN
 	1    9400 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L archive:Device_C C14
 U 1 1 607AD438
 P 9600 1950
 F 0 "C14" H 9600 2050 50  0000 L CNN
 F 1 "10uF" H 9600 1850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9638 1800 50  0001 C CNN
+F 2 "archive:C_0805_2012Metric" H 9638 1800 50  0001 C CNN
 F 3 "~" H 9600 1950 50  0001 C CNN
 	1    9600 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L archive:Device_C C10
 U 1 1 606EF2F1
 P 6300 1650
 F 0 "C10" H 6300 1750 50  0000 L CNN
 F 1 "10uF" H 6300 1550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6338 1500 50  0001 C CNN
+F 2 "archive:C_0805_2012Metric" H 6338 1500 50  0001 C CNN
 F 3 "~" H 6300 1650 50  0001 C CNN
 	1    6300 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L archive:Device_C C9
 U 1 1 606ABA69
 P 6100 1650
 F 0 "C9" H 6100 1750 50  0000 L CNN
 F 1 "10uF" H 6100 1550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6138 1500 50  0001 C CNN
+F 2 "archive:C_0805_2012Metric" H 6138 1500 50  0001 C CNN
 F 3 "~" H 6100 1650 50  0001 C CNN
 	1    6100 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L archive:Device_C C8
 U 1 1 6064BF41
 P 4000 1650
 F 0 "C8" H 4000 1750 50  0000 L CNN
 F 1 "10uF" H 4000 1550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 4038 1500 50  0001 C CNN
+F 2 "archive:C_1210_3225Metric" H 4038 1500 50  0001 C CNN
 F 3 "~" H 4000 1650 50  0001 C CNN
 F 4 "25V" H 4000 1650 50  0001 C CNN "Comment"
 	1    4000 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R14
+L archive:Device_R_Small R14
 U 1 1 603B2337
 P 5800 1800
 F 0 "R14" H 5859 1846 50  0000 L CNN
 F 1 "10k" H 5859 1755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5800 1800 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 5800 1800 50  0001 C CNN
 F 3 "~" H 5800 1800 50  0001 C CNN
 	1    5800 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R13
+L archive:Device_R_Small R13
 U 1 1 603B1B80
 P 5800 1600
 F 0 "R13" H 5859 1646 50  0000 L CNN
 F 1 "56k" H 5859 1555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5800 1600 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 5800 1600 50  0001 C CNN
 F 3 "~" H 5800 1600 50  0001 C CNN
 	1    5800 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C6
+L archive:Device_C_Small C6
 U 1 1 603531D4
 P 5200 1600
 F 0 "C6" V 5150 1550 50  0000 R CNN
 F 1 "0.1uF" V 5150 1650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5200 1600 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 5200 1600 50  0001 C CNN
 F 3 "~" H 5200 1600 50  0001 C CNN
 	1    5200 1600
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:L L2
+L archive:Device_L L2
 U 1 1 60334C94
 P 5650 1500
 F 0 "L2" V 5840 1500 50  0000 C CNN
 F 1 "4.7uH" V 5749 1500 50  0000 C CNN
-F 2 "Inductor_SMD:L_Bourns-SRN4018" H 5650 1500 50  0001 C CNN
+F 2 "archive:L_Bourns-SRN4018" H 5650 1500 50  0001 C CNN
 F 3 "~" H 5650 1500 50  0001 C CNN
 F 4 "SRN4018-4R7M" V 5650 1500 50  0001 C CNN "Part"
 	1    5650 1500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Regulator_Switching:TPS562200 U4
+L archive:Regulator_Switching_TPS562200 U4
 U 1 1 60330356
 P 4600 1600
 F 0 "U4" H 4600 1967 50  0000 C CNN
 F 1 "TPS562200" H 4600 1876 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4650 1350 50  0001 L CNN
+F 2 "archive:SOT-23-6" H 4650 1350 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps563200.pdf" H 4600 1600 50  0001 C CNN
 F 4 "TPS562200DDC" H 4600 1600 50  0001 C CNN "Part"
 	1    4600 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C24
+L archive:Device_C C24
 U 1 1 614891BD
 P 4600 3350
 F 0 "C24" H 4600 3450 50  0000 L CNN
 F 1 "10uF" H 4600 3250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 4638 3200 50  0001 C CNN
+F 2 "archive:C_1210_3225Metric" H 4638 3200 50  0001 C CNN
 F 3 "~" H 4600 3350 50  0001 C CNN
 F 4 "25V" H 4600 3350 50  0001 C CNN "Comment"
 	1    4600 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C23
+L archive:Device_C C23
 U 1 1 6147C800
 P 4400 3350
 F 0 "C23" H 4400 3450 50  0000 L CNN
 F 1 "10uF" H 4400 3250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 4438 3200 50  0001 C CNN
+F 2 "archive:C_1210_3225Metric" H 4438 3200 50  0001 C CNN
 F 3 "~" H 4400 3350 50  0001 C CNN
 F 4 "25V" H 4400 3350 50  0001 C CNN "Comment"
 	1    4400 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C22
+L archive:Device_C C22
 U 1 1 604117F5
 P 4200 3350
 F 0 "C22" H 4200 3450 50  0000 L CNN
 F 1 "10uF" H 4200 3250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 4238 3200 50  0001 C CNN
+F 2 "archive:C_1210_3225Metric" H 4238 3200 50  0001 C CNN
 F 3 "~" H 4200 3350 50  0001 C CNN
 F 4 "25V" H 4200 3350 50  0001 C CNN "Comment"
 	1    4200 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP4
+L archive:Connector_TestPoint TP4
 U 1 1 61A8EB6F
 P 700 2450
 F 0 "TP4" H 758 2568 50  0000 L CNN
 F 1 "~" H 758 2477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 900 2450 50  0001 C CNN
+F 2 "archive:TestPoint_Loop_D2.50mm_Drill1.0mm" H 900 2450 50  0001 C CNN
 F 3 "~" H 900 2450 50  0001 C CNN
 F 4 "I_IN" H 758 2477 50  0000 L CNN "Comment"
 F 5 "Keystone 5000" H 700 2450 50  0001 C CNN "Part"
@@ -1493,12 +1493,12 @@ F 6 "DNP" H 700 2450 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP6
+L archive:Connector_TestPoint TP6
 U 1 1 61A69529
 P 750 4100
 F 0 "TP6" H 808 4218 50  0000 L CNN
 F 1 "~" H 808 4127 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 950 4100 50  0001 C CNN
+F 2 "archive:TestPoint_Loop_D2.50mm_Drill1.0mm" H 950 4100 50  0001 C CNN
 F 3 "~" H 950 4100 50  0001 C CNN
 F 4 "I_OUT" H 808 4127 50  0000 L CNN "Comment"
 F 5 "Keystone 5000" H 750 4100 50  0001 C CNN "Part"
@@ -1507,115 +1507,115 @@ F 6 "DNP" H 750 4100 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C37
+L archive:Device_C_Small C37
 U 1 1 61992C2D
 P 1050 4900
 F 0 "C37" H 900 4900 50  0000 C CNN
 F 1 "0.1uF" H 1050 4800 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1050 4900 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 1050 4900 50  0001 C CNN
 F 3 "~" H 1050 4900 50  0001 C CNN
 	1    1050 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R34
+L archive:Device_R_Small R34
 U 1 1 60429405
 P 1650 4700
 F 0 "R34" H 1592 4746 50  0000 R CNN
 F 1 "47k" H 1592 4655 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1650 4700 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 1650 4700 50  0001 C CNN
 F 3 "~" H 1650 4700 50  0001 C CNN
 	1    1650 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NPN_BEC Q10
+L archive:Device_Q_NPN_BEC Q10
 U 1 1 6188DD66
 P 1250 4800
 F 0 "Q10" H 1300 4650 50  0000 R CNN
 F 1 "NPN" H 1441 4755 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1450 4900 50  0001 C CNN
+F 2 "archive:SOT-23" H 1450 4900 50  0001 C CNN
 F 3 "~" H 1250 4800 50  0001 C CNN
 F 4 "BC846" H 1250 4800 50  0001 C CNN "Part"
 	1    1250 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R33
+L archive:Device_R_Small R33
 U 1 1 61966903
 P 1050 4700
 F 0 "R33" H 992 4746 50  0000 R CNN
 F 1 "10k" H 992 4655 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1050 4700 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 1050 4700 50  0001 C CNN
 F 3 "~" H 1050 4700 50  0001 C CNN
 	1    1050 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R28
+L archive:Device_R_Small R28
 U 1 1 618E3279
 P 1350 4500
 F 0 "R28" H 1292 4546 50  0000 R CNN
 F 1 "15k" H 1292 4455 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1350 4500 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 1350 4500 50  0001 C CNN
 F 3 "~" H 1350 4500 50  0001 C CNN
 	1    1350 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_PNP_BEC Q12
+L archive:Device_Q_PNP_BEC Q12
 U 1 1 60339561
 P 2700 6200
 F 0 "Q12" H 2891 6200 50  0000 L CNN
 F 1 "PNP" H 2890 6245 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 6300 50  0001 C CNN
+F 2 "archive:SOT-23" H 2900 6300 50  0001 C CNN
 F 3 "~" H 2700 6200 50  0001 C CNN
 F 4 "BC856" H 2700 6200 50  0001 C CNN "Part"
 	1    2700 6200
 	1    0    0    1   
 $EndComp
 $Comp
-L project:INA180A U7
+L archive:project_INA180A U7
 U 1 1 6058CC40
 P 1900 2500
 F 0 "U7" H 2050 2750 50  0000 C CNN
 F 1 "INA180A3" H 2050 2650 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1900 2500 50  0001 C CNN
+F 2 "archive:SOT-23-5" H 1900 2500 50  0001 C CNN
 F 3 "~" H 1900 2505 50  0001 C CNN
 F 4 "TPS63020DSJ" H 1900 2500 50  0001 C CNN "Part"
 	1    1900 2500
 	-1   0    0    -1  
 $EndComp
 $Comp
-L project:NMOS_SuperSO8 Q6
+L archive:project_NMOS_SuperSO8 Q6
 U 1 1 6029F8B6
 P 3900 3900
 F 0 "Q6" H 4100 3900 50  0000 L CNN
 F 1 "BSC0904NSI" H 4050 4000 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 4100 4000 50  0001 C CNN
+F 2 "archive:TDSON-8-1" H 4100 4000 50  0001 C CNN
 F 3 "~" H 3900 3900 50  0001 C CNN
 F 4 "BSC0904NSI" H 3900 3900 50  0001 C CNN "Part"
 	1    3900 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C42
+L archive:Device_C_Small C42
 U 1 1 616EF60C
 P 5800 7000
 F 0 "C42" H 5709 7046 50  0000 R CNN
 F 1 "0.1uF" H 5709 6955 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5838 6850 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 5838 6850 50  0001 C CNN
 F 3 "~" H 5800 7000 50  0001 C CNN
 	1    5800 7000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Reference_Voltage:TL432DBZ U11
+L archive:Reference_Voltage_TL432DBZ U11
 U 1 1 60E95BE5
 P 2300 7100
 F 0 "U11" V 2350 7150 50  0000 L CNN
 F 1 "TLV431" V 2250 7150 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 6950 50  0001 C CIN
+F 2 "archive:SOT-23" H 2300 6950 50  0001 C CIN
 F 3 "~" H 2300 7100 50  0001 C CIN
 F 4 "DNP" V 2300 7100 50  0001 C CNN "DNP"
 F 5 "TLV431CDBV" H 2300 7100 50  0001 C CNN "Part"
@@ -1623,314 +1623,314 @@ F 5 "TLV431CDBV" H 2300 7100 50  0001 C CNN "Part"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Reference_Voltage:TL432DBZ U10
+L archive:Reference_Voltage_TL432DBZ U10
 U 1 1 60321348
 P 2300 6300
 F 0 "U10" V 2350 6350 50  0000 L CNN
 F 1 "TLV431" V 2250 6350 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 6150 50  0001 C CIN
+F 2 "archive:SOT-23" H 2300 6150 50  0001 C CIN
 F 3 "~" H 2300 6300 50  0001 C CIN
 F 4 "TLV431CDBV" H 2300 6300 50  0001 C CNN "Part"
 	1    2300 6300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L project:LM5117PMH U9
+L archive:project_LM5117PMH U9
 U 1 1 602C77DA
 P 2550 4300
 F 0 "U9" H 2550 5065 50  0000 C CNN
 F 1 "LM25117" H 2550 4974 50  0000 C CNN
-F 2 "Package_SO:ETSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3x4.2mm" H 2550 4950 50  0001 C CNN
+F 2 "archive:ETSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3x4.2mm" H 2550 4950 50  0001 C CNN
 F 3 "" H 2550 4950 50  0001 C CNN
 F 4 "INA180A3IDBV" H 2550 4300 50  0001 C CNN "Part"
 	1    2550 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Opamp_Quad U8
+L archive:Device_Opamp_Quad U8
 U 5 1 616A1882
 P 6100 7000
 AR Path="/616A1882" Ref="U8"  Part="5" 
 AR Path="/5DE07D62/616A1882" Ref="U8"  Part="5" 
 F 0 "U8" H 6058 7046 50  0000 L CNN
 F 1 "TLV9104" H 6058 6955 50  0000 L CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6100 7000 50  0001 C CNN
+F 2 "archive:TSSOP-14_4.4x5mm_P0.65mm" H 6100 7000 50  0001 C CNN
 F 3 "~" H 6100 7000 50  0001 C CNN
 F 4 "TLV9104IPWR" H 6100 7000 50  0001 C CNN "Part"
 	5    6100 7000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener D2
+L archive:Device_D_Zener D2
 U 1 1 5DF8750D
 P 1500 1650
 F 0 "D2" V 1454 1729 50  0000 L CNN
 F 1 "SMF4L15A" V 1545 1729 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 1500 1650 50  0001 C CNN
+F 2 "archive:D_SOD-123" H 1500 1650 50  0001 C CNN
 F 3 "~" H 1500 1650 50  0001 C CNN
 F 4 "SMF4L15A" V 1500 1650 50  0001 C CNN "Part"
 	1    1500 1650
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F1
+L archive:Device_Fuse F1
 U 1 1 5DEBDC74
 P 1250 1500
 F 0 "F1" V 963 1500 50  0000 C CNN
 F 1 "6A" V 1054 1500 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Littelfuse_Nano2_154x" V 1180 1500 50  0001 C CNN
+F 2 "archive:Fuseholder_Littelfuse_Nano2_154x" V 1180 1500 50  0001 C CNN
 F 3 "~" H 1250 1500 50  0001 C CNN
 F 4 "15406.3" V 1145 1500 50  0000 C CNN "Part"
 	1    1250 1500
 	0    1    1    0   
 $EndComp
 $Comp
-L Analog_Switch:MAX40200AUK U6
+L archive:Analog_Switch_MAX40200AUK U6
 U 1 1 5E29C7FD
 P 6700 2450
 F 0 "U6" H 6700 2817 50  0000 C CNN
 F 1 "MAX40200AUK" H 6700 2726 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6700 2950 50  0001 C CNN
+F 2 "archive:SOT-23-5" H 6700 2950 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf" H 6700 2950 50  0001 C CNN
 F 4 "MAX40200AUK+T" H 6700 2450 50  0001 C CNN "Part"
 	1    6700 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C34
+L archive:Device_C_Small C34
 U 1 1 602F342F
 P 2050 4700
 F 0 "C34" H 1959 4746 50  0000 R CNN
 F 1 "0.1uF" H 1959 4655 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2050 4700 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 2050 4700 50  0001 C CNN
 F 3 "~" H 2050 4700 50  0001 C CNN
 	1    2050 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky_Small_Filled D3
+L archive:Device_D_Schottky_Small_Filled D3
 U 1 1 602CFF2F
 P 3250 3750
 AR Path="/602CFF2F" Ref="D3"  Part="1" 
 AR Path="/5DE07D62/602CFF2F" Ref="D3"  Part="1" 
 F 0 "D3" V 3250 3680 50  0000 R CNN
 F 1 "~" V 3205 3680 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-323" V 3250 3750 50  0001 C CNN
+F 2 "archive:D_SOD-323" V 3250 3750 50  0001 C CNN
 F 3 "~" V 3250 3750 50  0001 C CNN
 F 4 "BAT54WS" V 3250 3750 50  0001 C CNN "Part"
 	1    3250 3750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP1
+L archive:Jumper_SolderJumper_2_Open JP1
 U 1 1 602F858E
 P 3000 3650
 F 0 "JP1" V 2900 3650 50  0000 R CNN
 F 1 "0" V 3045 3718 50  0001 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 3000 3650 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 3000 3650 50  0001 C CNN
 F 3 "~" H 3000 3650 50  0001 C CNN
 F 4 "DNP" H 3000 3650 50  0001 C CNN "DNP"
 	1    3000 3650
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R43
+L archive:Device_R_Small R43
 U 1 1 6033DCF8
 P 2800 5900
 F 0 "R43" H 2859 5946 50  0000 L CNN
 F 1 "1k" H 2859 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2800 5900 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 2800 5900 50  0001 C CNN
 F 3 "~" H 2800 5900 50  0001 C CNN
 	1    2800 5900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R20
+L archive:Device_R_Small R20
 U 1 1 603C647A
 P 1950 3450
 F 0 "R20" H 1892 3496 50  0000 R CNN
 F 1 "10k" H 1892 3405 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1950 3450 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 1950 3450 50  0001 C CNN
 F 3 "~" H 1950 3450 50  0001 C CNN
 	1    1950 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R18
+L archive:Device_R_Small R18
 U 1 1 603C6473
 P 1950 3250
 F 0 "R18" H 1892 3296 50  0000 R CNN
 F 1 "68k" H 1892 3205 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1950 3250 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 1950 3250 50  0001 C CNN
 F 3 "~" H 1950 3250 50  0001 C CNN
 	1    1950 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R24
+L archive:Device_R_Small R24
 U 1 1 603E8C10
 P 1500 4100
 F 0 "R24" V 1550 4200 50  0000 L CNN
 F 1 "47k" V 1400 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1500 4100 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 1500 4100 50  0001 C CNN
 F 3 "~" H 1500 4100 50  0001 C CNN
 	1    1500 4100
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C28
+L archive:Device_C_Small C28
 U 1 1 603E9FFB
 P 1800 4100
 F 0 "C28" V 1850 4150 50  0000 L CNN
 F 1 "1nF" V 1700 4100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1800 4100 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 1800 4100 50  0001 C CNN
 F 3 "~" H 1800 4100 50  0001 C CNN
 	1    1800 4100
 	0    1    1    0   
 $EndComp
 $Comp
-L project:Wire ZZ7
+L archive:project_Wire ZZ7
 U 1 1 602F512C
 P 2500 5000
 F 0 "ZZ7" H 2500 5100 50  0001 C CNN
 F 1 "~" H 2500 5050 50  0001 C CNN
-F 2 "project:Trace_0.2mmx0.6mm" H 2500 5050 50  0001 C CNN
+F 2 "archive:Trace_0.2mmx0.6mm" H 2500 5050 50  0001 C CNN
 F 3 "" H 2500 5050 50  0001 C CNN
 F 4 "DNP" H 2500 5000 50  0001 C CNN "DNP"
 	1    2500 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L project:Wire ZZ4
+L archive:project_Wire ZZ4
 U 1 1 60301092
 P 3950 4500
 F 0 "ZZ4" H 3950 4600 50  0001 C CNN
 F 1 "~" H 3950 4550 50  0001 C CNN
-F 2 "project:Trace_0.2mmx0.6mm" H 3950 4550 50  0001 C CNN
+F 2 "archive:Trace_0.2mmx0.6mm" H 3950 4550 50  0001 C CNN
 F 3 "" H 3950 4550 50  0001 C CNN
 F 4 "DNP" H 3950 4500 50  0001 C CNN "DNP"
 	1    3950 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R32
+L archive:Device_R R32
 U 1 1 60303BBE
 P 4000 4650
 F 0 "R32" H 4070 4696 50  0000 L CNN
 F 1 "0.006" H 4070 4605 50  0000 L CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 3930 4650 50  0001 C CNN
+F 2 "archive:R_2512_6332Metric" V 3930 4650 50  0001 C CNN
 F 3 "~" H 4000 4650 50  0001 C CNN
 F 4 "LRMAP2512-R006" H 4000 4650 50  0001 C CNN "Part"
 	1    4000 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L project:Wire ZZ6
+L archive:project_Wire ZZ6
 U 1 1 6030F470
 P 3950 4800
 F 0 "ZZ6" H 3950 4900 50  0001 C CNN
 F 1 "~" H 3950 4850 50  0001 C CNN
-F 2 "project:Trace_0.2mmx0.6mm" H 3950 4850 50  0001 C CNN
+F 2 "archive:Trace_0.2mmx0.6mm" H 3950 4850 50  0001 C CNN
 F 3 "" H 3950 4850 50  0001 C CNN
 F 4 "DNP" H 3950 4800 50  0001 C CNN "DNP"
 	1    3950 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R42
+L archive:Device_R_Small R42
 U 1 1 60337A35
 P 2500 5900
 F 0 "R42" H 2441 5946 50  0000 R CNN
 F 1 "10k" H 2441 5855 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2500 5900 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 2500 5900 50  0001 C CNN
 F 3 "~" H 2500 5900 50  0001 C CNN
 	1    2500 5900
 	1    0    0    -1  
 $EndComp
 $Comp
-L project:Wire ZZ1
+L archive:project_Wire ZZ1
 U 1 1 6057020D
 P 2200 1550
 F 0 "ZZ1" H 2200 1650 50  0001 C CNN
 F 1 "~" H 2200 1600 50  0001 C CNN
-F 2 "project:Trace_0.2mmx0.6mm" H 2200 1600 50  0001 C CNN
+F 2 "archive:Trace_0.2mmx0.6mm" H 2200 1600 50  0001 C CNN
 F 3 "" H 2200 1600 50  0001 C CNN
 F 4 "DNP" H 2200 1550 50  0001 C CNN "DNP"
 	1    2200 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R12
+L archive:Device_R R12
 U 1 1 60570213
 P 2350 1500
 F 0 "R12" V 2557 1500 50  0000 C CNN
 F 1 "0.006" V 2466 1500 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 2280 1500 50  0001 C CNN
+F 2 "archive:R_2512_6332Metric" V 2280 1500 50  0001 C CNN
 F 3 "~" H 2350 1500 50  0001 C CNN
 F 4 "LRMAP2512-R006" H 2350 1500 50  0001 C CNN "Part"
 	1    2350 1500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L project:Wire ZZ2
+L archive:project_Wire ZZ2
 U 1 1 6057021B
 P 2500 1550
 F 0 "ZZ2" H 2500 1650 50  0001 C CNN
 F 1 "~" H 2500 1600 50  0001 C CNN
-F 2 "project:Trace_0.2mmx0.6mm" H 2500 1600 50  0001 C CNN
+F 2 "archive:Trace_0.2mmx0.6mm" H 2500 1600 50  0001 C CNN
 F 3 "" H 2500 1600 50  0001 C CNN
 F 4 "DNP" H 2500 1550 50  0001 C CNN "DNP"
 	1    2500 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R26
+L archive:Device_R_Small R26
 U 1 1 606201B1
 P 3600 4300
 F 0 "R26" V 3550 4200 50  0000 R CNN
 F 1 "0" V 3600 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 3600 4300 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 3600 4300 50  0001 C CNN
 F 3 "~" H 3600 4300 50  0001 C CNN
 	1    3600 4300
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Polarized C?
+L archive:Device_C_Polarized C?
 U 1 1 60398AFC
 P 6200 4400
 AR Path="/60398AFC" Ref="C?"  Part="1" 
 AR Path="/5DE07D62/60398AFC" Ref="C32"  Part="1" 
 F 0 "C32" H 6315 4446 50  0000 L CNN
 F 1 "200F" H 6315 4355 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn" H 6200 4400 50  0001 C CNN
+F 2 "archive:CP_Radial_D30.0mm_P10.00mm_SnapIn" H 6200 4400 50  0001 C CNN
 F 3 "~" H 6200 4400 50  0001 C CNN
 F 4 "SCCX50B207SSB" H 6200 4400 50  0001 C CNN "Part"
 	1    6200 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Polarized C?
+L archive:Device_C_Polarized C?
 U 1 1 60399785
 P 6200 4800
 AR Path="/60399785" Ref="C?"  Part="1" 
 AR Path="/5DE07D62/60399785" Ref="C35"  Part="1" 
 F 0 "C35" H 6315 4846 50  0000 L CNN
 F 1 "200F" H 6315 4755 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn" H 6200 4800 50  0001 C CNN
+F 2 "archive:CP_Radial_D30.0mm_P10.00mm_SnapIn" H 6200 4800 50  0001 C CNN
 F 3 "~" H 6200 4800 50  0001 C CNN
 F 4 "SCCX50B207SSB" H 6200 4800 50  0001 C CNN "Part"
 	1    6200 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Polarized C?
+L archive:Device_C_Polarized C?
 U 1 1 6039DE0A
 P 6700 4400
 AR Path="/6039DE0A" Ref="C?"  Part="1" 
 AR Path="/5DE07D62/6039DE0A" Ref="C33"  Part="1" 
 F 0 "C33" H 6815 4446 50  0000 L CNN
 F 1 "200F" H 6815 4355 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn" H 6700 4400 50  0001 C CNN
+F 2 "archive:CP_Radial_D30.0mm_P10.00mm_SnapIn" H 6700 4400 50  0001 C CNN
 F 3 "~" H 6700 4400 50  0001 C CNN
 F 4 "DNP" H 6700 4400 50  0001 C CNN "DNP"
 F 5 "SCCX50B207SSB" H 6700 4400 50  0001 C CNN "Part"
@@ -1938,14 +1938,14 @@ F 5 "SCCX50B207SSB" H 6700 4400 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Polarized C?
+L archive:Device_C_Polarized C?
 U 1 1 6039DE10
 P 6700 4800
 AR Path="/6039DE10" Ref="C?"  Part="1" 
 AR Path="/5DE07D62/6039DE10" Ref="C36"  Part="1" 
 F 0 "C36" H 6815 4846 50  0000 L CNN
 F 1 "200F" H 6815 4755 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn" H 6700 4800 50  0001 C CNN
+F 2 "archive:CP_Radial_D30.0mm_P10.00mm_SnapIn" H 6700 4800 50  0001 C CNN
 F 3 "~" H 6700 4800 50  0001 C CNN
 F 4 "DNP" H 6700 4800 50  0001 C CNN "DNP"
 F 5 "SCCX50B207SSB" H 6700 4800 50  0001 C CNN "Part"
@@ -1953,25 +1953,25 @@ F 5 "SCCX50B207SSB" H 6700 4800 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C20
+L archive:Device_C_Small C20
 U 1 1 60D20C8B
 P 1500 2700
 F 0 "C20" H 1592 2746 50  0000 L CNN
 F 1 "0.1uF" H 1592 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1500 2700 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 1500 2700 50  0001 C CNN
 F 3 "~" H 1500 2700 50  0001 C CNN
 	1    1500 2700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Polarized C?
+L archive:Device_C_Polarized C?
 U 1 1 604522CD
 P 2800 2550
 AR Path="/604522CD" Ref="C?"  Part="1" 
 AR Path="/5DE07D62/604522CD" Ref="C18"  Part="1" 
 F 0 "C18" H 2915 2596 50  0000 L CNN
 F 1 "220uF" H 2915 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 2800 2550 50  0001 C CNN
+F 2 "archive:CP_Elec_8x10.5" H 2800 2550 50  0001 C CNN
 F 3 "~" H 2800 2550 50  0001 C CNN
 F 4 "EEV227M025A9MAA" H 2800 2550 50  0001 C CNN "Part"
 F 5 "EEE-FN1E221L" H 2800 2550 50  0001 C CNN "PartAlt"
@@ -1979,128 +1979,128 @@ F 5 "EEE-FN1E221L" H 2800 2550 50  0001 C CNN "PartAlt"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L3
+L archive:Device_L L3
 U 1 1 6045DBE1
 P 3150 2400
 F 0 "L3" V 3340 2400 50  0000 C CNN
 F 1 "2.2uH" V 3249 2400 50  0000 C CNN
-F 2 "Inductor_SMD:L_Bourns-SRN8040_8x8.15mm" H 3150 2400 50  0001 C CNN
+F 2 "archive:L_Bourns-SRN8040_8x8.15mm" H 3150 2400 50  0001 C CNN
 F 3 "~" H 3150 2400 50  0001 C CNN
 F 4 "SRN8040-2R2Y" V 3150 2400 50  0001 C CNN "Part"
 	1    3150 2400
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R50
+L archive:Device_R_Small R50
 U 1 1 60E95BF3
 P 1600 6900
 F 0 "R50" H 1541 6946 50  0000 R CNN
 F 1 "10k" H 1541 6855 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1600 6900 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 1600 6900 50  0001 C CNN
 F 3 "~" H 1600 6900 50  0001 C CNN
 F 4 "DNP" H 1600 6900 50  0001 C CNN "DNP"
 	1    1600 6900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R51
+L archive:Device_R_Small R51
 U 1 1 60E95BFA
 P 1600 7100
 F 0 "R51" H 1541 7146 50  0000 R CNN
 F 1 "15k" H 1541 7055 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1600 7100 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 1600 7100 50  0001 C CNN
 F 3 "~" H 1600 7100 50  0001 C CNN
 F 4 "DNP" H 1600 7100 50  0001 C CNN "DNP"
 	1    1600 7100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C43
+L archive:Device_C_Small C43
 U 1 1 60E95C03
 P 1900 7100
 F 0 "C43" H 1808 7146 50  0000 R CNN
 F 1 "1nF" H 1808 7055 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1900 7100 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 1900 7100 50  0001 C CNN
 F 3 "~" H 1900 7100 50  0001 C CNN
 F 4 "DNP" H 1900 7100 50  0001 C CNN "DNP"
 	1    1900 7100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C41
+L archive:Device_C_Small C41
 U 1 1 60366CE9
 P 1900 6300
 F 0 "C41" H 1808 6346 50  0000 R CNN
 F 1 "1nF" H 1808 6255 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1900 6300 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 1900 6300 50  0001 C CNN
 F 3 "~" H 1900 6300 50  0001 C CNN
 	1    1900 6300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R49
+L archive:Device_R_Small R49
 U 1 1 6035EB2E
 P 1600 6300
 F 0 "R49" H 1541 6346 50  0000 R CNN
 F 1 "10k" H 1541 6255 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1600 6300 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 1600 6300 50  0001 C CNN
 F 3 "~" H 1600 6300 50  0001 C CNN
 	1    1600 6300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R46
+L archive:Device_R_Small R46
 U 1 1 6035CC9E
 P 1600 6100
 F 0 "R46" H 1541 6146 50  0000 R CNN
 F 1 "15k" H 1541 6055 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1600 6100 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 1600 6100 50  0001 C CNN
 F 3 "~" H 1600 6100 50  0001 C CNN
 	1    1600 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C38
+L archive:Device_C_Small C38
 U 1 1 602E49F8
 P 3250 4900
 F 0 "C38" H 3342 4946 50  0000 L CNN
 F 1 "1nF" H 3342 4855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3250 4900 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 3250 4900 50  0001 C CNN
 F 3 "~" H 3250 4900 50  0001 C CNN
 	1    3250 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R31
+L archive:Device_R_Small R31
 U 1 1 602E2EB3
 P 3250 4650
 F 0 "R31" H 3309 4696 50  0000 L CNN
 F 1 "56k" H 3309 4605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 3250 4650 50  0001 C CNN
+F 2 "archive:R_0402_1005Metric" H 3250 4650 50  0001 C CNN
 F 3 "~" H 3250 4650 50  0001 C CNN
 	1    3250 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C26
+L archive:Device_C_Small C26
 U 1 1 603F2A8E
 P 1650 3900
 F 0 "C26" V 1600 3950 50  0000 L CNN
 F 1 "100pF" V 1600 3850 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1650 3900 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 1650 3900 50  0001 C CNN
 F 3 "~" H 1650 3900 50  0001 C CNN
 	1    1650 3900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Polarized C?
+L archive:Device_C_Polarized C?
 U 1 1 6136B917
 P 3500 2550
 AR Path="/6136B917" Ref="C?"  Part="1" 
 AR Path="/5DE07D62/6136B917" Ref="C19"  Part="1" 
 F 0 "C19" H 3615 2596 50  0000 L CNN
 F 1 "220uF" H 3615 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 3500 2550 50  0001 C CNN
+F 2 "archive:CP_Elec_8x10.5" H 3500 2550 50  0001 C CNN
 F 3 "~" H 3500 2550 50  0001 C CNN
 F 4 "EEV227M025A9MAA" H 3500 2550 50  0001 C CNN "Part"
 F 5 "EEE-FN1E221L" H 3500 2550 50  0001 C CNN "PartAlt"
@@ -2110,12 +2110,12 @@ $EndComp
 Connection ~ 7500 5000
 Connection ~ 7500 4200
 $Comp
-L Device:Q_NPN_Darlington_BCE Q11
+L archive:Device_Q_NPN_Darlington_BCE Q11
 U 1 1 60A6FF56
 P 7600 4800
 F 0 "Q11" H 7550 4900 50  0000 R CNN
 F 1 "MJD122" H 7600 4650 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 7800 4900 50  0001 C CNN
+F 2 "archive:TO-252-2" H 7800 4900 50  0001 C CNN
 F 3 "~" H 7600 4800 50  0001 C CNN
 F 4 "MJD122" H 7600 4800 50  0001 C CNN "Part"
 	1    7600 4800
@@ -2133,12 +2133,12 @@ Wire Wire Line
 Wire Wire Line
 	10700 1800 10500 1800
 $Comp
-L Connector:TestPoint TP2
+L archive:Connector_TestPoint TP2
 U 1 1 604DD511
 P 10700 1800
 F 0 "TP2" H 10758 1918 50  0000 L CNN
 F 1 "~" H 10758 1827 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 10900 1800 50  0001 C CNN
+F 2 "archive:TestPoint_Loop_D2.50mm_Drill1.0mm" H 10900 1800 50  0001 C CNN
 F 3 "~" H 10900 1800 50  0001 C CNN
 F 4 "Keystone 5000" H 10700 1800 50  0001 C CNN "Part"
 F 5 "VCC" H 10758 1827 50  0000 L CNN "Comment"
@@ -2147,12 +2147,12 @@ F 6 "DNP" H 10700 1800 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP3
+L archive:Connector_TestPoint TP3
 U 1 1 604CA507
 P 10700 2000
 F 0 "TP3" H 10758 2118 50  0000 L CNN
 F 1 "~" H 10758 2027 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 10900 2000 50  0001 C CNN
+F 2 "archive:TestPoint_Loop_D2.50mm_Drill1.0mm" H 10900 2000 50  0001 C CNN
 F 3 "~" H 10900 2000 50  0001 C CNN
 F 4 "Keystone 5000" H 10700 2000 50  0001 C CNN "Part"
 F 5 "GND" H 10758 2027 50  0000 L CNN "Comment"
@@ -2164,12 +2164,12 @@ Wire Wire Line
 	3250 4750 3250 4800
 Connection ~ 3250 4800
 $Comp
-L Connector:TestPoint TP1
+L archive:Connector_TestPoint TP1
 U 1 1 6038C5F8
 P 7200 1500
 F 0 "TP1" H 7258 1618 50  0000 L CNN
 F 1 "~" H 7258 1527 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 7400 1500 50  0001 C CNN
+F 2 "archive:TestPoint_Loop_D2.50mm_Drill1.0mm" H 7400 1500 50  0001 C CNN
 F 3 "~" H 7400 1500 50  0001 C CNN
 F 4 "Keystone 5000" H 7200 1500 50  0001 C CNN "Part"
 F 5 "VSYS" H 7258 1527 50  0000 L CNN "Comment"
@@ -2184,24 +2184,24 @@ Wire Notes Line
 Wire Notes Line
 	3500 1950 6500 1950
 $Comp
-L Device:L L4
+L archive:Device_L L4
 U 1 1 602ECEC9
 P 4350 4100
 F 0 "L4" V 4540 4100 50  0000 C CNN
 F 1 "3.3uH" V 4449 4100 50  0000 C CNN
-F 2 "Inductor_SMD:L_Bourns_SRP1245A" H 4350 4100 50  0001 C CNN
+F 2 "archive:L_Bourns_SRP1245A" H 4350 4100 50  0001 C CNN
 F 3 "~" H 4350 4100 50  0001 C CNN
 F 4 "SRP1265A-3R3M" V 4350 4100 50  0001 C CNN "Part"
 	1    4350 4100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:L L1
+L archive:Device_L L1
 U 1 1 603C095D
 P 8600 1450
 F 0 "L1" V 8790 1450 50  0000 C CNN
 F 1 "1.5uH" V 8699 1450 50  0000 C CNN
-F 2 "Inductor_SMD:L_Bourns-SRN4018" H 8600 1450 50  0001 C CNN
+F 2 "archive:L_Bourns-SRN4018" H 8600 1450 50  0001 C CNN
 F 3 "~" H 8600 1450 50  0001 C CNN
 F 4 "SRN4018-1R5Y" V 8600 1450 50  0001 C CNN "Part"
 	1    8600 1450
@@ -2214,35 +2214,35 @@ Wire Wire Line
 Wire Wire Line
 	8150 1900 8150 2000
 $Comp
-L Device:C_Small C15
+L archive:Device_C_Small C15
 U 1 1 6054C036
 P 8150 2300
 F 0 "C15" H 8150 2400 50  0000 R CNN
 F 1 "0.1uF" H 8150 2200 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8150 2300 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 8150 2300 50  0001 C CNN
 F 3 "~" H 8150 2300 50  0001 C CNN
 	1    8150 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L archive:Device_C C11
 U 1 1 60C4DEE3
 P 7700 1950
 F 0 "C11" H 7700 2050 50  0000 L CNN
 F 1 "10uF" H 7700 1850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7738 1800 50  0001 C CNN
+F 2 "archive:C_0805_2012Metric" H 7738 1800 50  0001 C CNN
 F 3 "~" H 7700 1950 50  0001 C CNN
 F 4 "DNP" H 7700 1950 50  0001 C CNN "DNP"
 	1    7700 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C12
+L archive:Device_C C12
 U 1 1 605A920B
 P 7900 1950
 F 0 "C12" H 7900 2050 50  0000 L CNN
 F 1 "10uF" H 7900 1850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7938 1800 50  0001 C CNN
+F 2 "archive:C_0805_2012Metric" H 7938 1800 50  0001 C CNN
 F 3 "~" H 7900 1950 50  0001 C CNN
 	1    7900 1950
 	1    0    0    -1  
@@ -2289,34 +2289,34 @@ Connection ~ 9100 2200
 Wire Wire Line
 	9050 2200 9100 2200
 $Comp
-L Device:R_Small R16
+L archive:Device_R_Small R16
 U 1 1 60559B33
 P 9100 2100
 F 0 "R16" H 9159 2146 50  0000 L CNN
 F 1 "100k" H 9159 2055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 9100 2100 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 9100 2100 50  0001 C CNN
 F 3 "~" H 9100 2100 50  0001 C CNN
 	1    9100 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R17
+L archive:Device_R_Small R17
 U 1 1 604DE05E
 P 9100 2300
 F 0 "R17" H 9159 2346 50  0000 L CNN
 F 1 "180k" H 9159 2255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 9100 2300 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 9100 2300 50  0001 C CNN
 F 3 "~" H 9100 2300 50  0001 C CNN
 	1    9100 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R15
+L archive:Device_R_Small R15
 U 1 1 604DE058
 P 9100 1900
 F 0 "R15" H 9159 1946 50  0000 L CNN
 F 1 "1M" H 9159 1855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 9100 1900 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 9100 1900 50  0001 C CNN
 F 3 "~" H 9100 1900 50  0001 C CNN
 	1    9100 1900
 	1    0    0    -1  
@@ -2333,12 +2333,12 @@ Wire Wire Line
 Wire Wire Line
 	2150 3100 2350 3100
 $Comp
-L Device:C_Small C21
+L archive:Device_C_Small C21
 U 1 1 60E999BF
 P 2350 3200
 F 0 "C21" H 2442 3246 50  0000 L CNN
 F 1 "1uF" H 2442 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2350 3200 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 2350 3200 50  0001 C CNN
 F 3 "~" H 2350 3200 50  0001 C CNN
 F 4 "25V" H 2350 3200 50  0001 C CNN "Comment"
 	1    2350 3200
@@ -2348,12 +2348,12 @@ Connection ~ 2350 3100
 Wire Wire Line
 	2350 3100 2500 3100
 $Comp
-L Device:C_Small C27
+L archive:Device_C_Small C27
 U 1 1 60EAE200
 P 3250 3950
 F 0 "C27" H 3342 3996 50  0000 L CNN
 F 1 "1uF" H 3342 3905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3250 3950 50  0001 C CNN
+F 2 "archive:C_0402_1005Metric" H 3250 3950 50  0001 C CNN
 F 3 "~" H 3250 3950 50  0001 C CNN
 F 4 "25V" H 3250 3950 50  0001 C CNN "Comment"
 	1    3250 3950
@@ -2363,12 +2363,12 @@ Connection ~ 3250 3850
 Wire Wire Line
 	6300 1500 6700 1500
 $Comp
-L Device:D D1
+L archive:Device_D D1
 U 1 1 603609BD
 P 6850 1500
 F 0 "D1" H 6850 1375 50  0000 C CNN
 F 1 "~" H 6850 1374 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 6850 1500 50  0001 C CNN
+F 2 "archive:D_SOD-123" H 6850 1500 50  0001 C CNN
 F 3 "~" H 6850 1500 50  0001 C CNN
 F 4 "SM4007PL" H 6850 1500 50  0001 C CNN "Part"
 	1    6850 1500
@@ -2408,12 +2408,12 @@ BAL_CTRL1
 Wire Wire Line
 	7900 4800 7800 4800
 $Comp
-L Connector:TestPoint TP5
+L archive:Connector_TestPoint TP5
 U 1 1 62550355
 P 1000 3200
 F 0 "TP5" H 1058 3318 50  0000 L CNN
 F 1 "~" H 1058 3227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 1200 3200 50  0001 C CNN
+F 2 "archive:TestPoint_Loop_D2.50mm_Drill1.0mm" H 1200 3200 50  0001 C CNN
 F 3 "~" H 1200 3200 50  0001 C CNN
 F 4 "Keystone 5000" H 1000 3200 50  0001 C CNN "Part"
 F 5 "GND" H 1058 3227 50  0000 L CNN "Comment"
@@ -2424,7 +2424,7 @@ $EndComp
 Text Notes 10250 1900 0    50   ~ 0
 3.6V
 $Comp
-L power:GND #PWR022
+L archive:power_GND #PWR022
 U 1 1 6042DB90
 P 1500 1800
 F 0 "#PWR022" H 1500 1550 50  0001 C CNN
@@ -2435,7 +2435,7 @@ F 3 "" H 1500 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR024
+L archive:power_GND #PWR024
 U 1 1 6044157B
 P 4600 1900
 F 0 "#PWR024" H 4600 1650 50  0001 C CNN
@@ -2446,7 +2446,7 @@ F 3 "" H 4600 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR028
+L archive:power_GND #PWR028
 U 1 1 60468674
 P 6000 2550
 F 0 "#PWR028" H 6000 2300 50  0001 C CNN
@@ -2457,7 +2457,7 @@ F 3 "" H 6000 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR029
+L archive:power_GND #PWR029
 U 1 1 6047BE92
 P 7200 2550
 F 0 "#PWR029" H 7200 2300 50  0001 C CNN
@@ -2468,7 +2468,7 @@ F 3 "" H 7200 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR032
+L archive:power_GND #PWR032
 U 1 1 6048F6A4
 P 6700 2750
 F 0 "#PWR032" H 6700 2500 50  0001 C CNN
@@ -2479,7 +2479,7 @@ F 3 "" H 6700 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR027
+L archive:power_GND #PWR027
 U 1 1 604A3B7B
 P 8600 2500
 F 0 "#PWR027" H 8600 2250 50  0001 C CNN
@@ -2490,7 +2490,7 @@ F 3 "" H 8600 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR025
+L archive:power_GND #PWR025
 U 1 1 604B7CF8
 P 10500 2000
 F 0 "#PWR025" H 10500 1750 50  0001 C CNN
@@ -2501,7 +2501,7 @@ F 3 "" H 10500 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR039
+L archive:power_GND #PWR039
 U 1 1 604DF07F
 P 8950 4000
 F 0 "#PWR039" H 8950 3750 50  0001 C CNN
@@ -2512,7 +2512,7 @@ F 3 "" H 8950 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR051
+L archive:power_GND #PWR051
 U 1 1 604F318D
 P 8950 5000
 F 0 "#PWR051" H 8950 4750 50  0001 C CNN
@@ -2523,7 +2523,7 @@ F 3 "" H 8950 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR053
+L archive:power_GND #PWR053
 U 1 1 6050732F
 P 8450 5600
 F 0 "#PWR053" H 8450 5350 50  0001 C CNN
@@ -2534,7 +2534,7 @@ F 3 "" H 8450 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR056
+L archive:power_GND #PWR056
 U 1 1 6051B425
 P 8450 6200
 F 0 "#PWR056" H 8450 5950 50  0001 C CNN
@@ -2545,7 +2545,7 @@ F 3 "" H 8450 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR050
+L archive:power_GND #PWR050
 U 1 1 6052F781
 P 6200 5000
 F 0 "#PWR050" H 6200 4750 50  0001 C CNN
@@ -2556,7 +2556,7 @@ F 3 "" H 6200 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR040
+L archive:power_GND #PWR040
 U 1 1 605438C2
 P 4800 4400
 F 0 "#PWR040" H 4800 4150 50  0001 C CNN
@@ -2567,7 +2567,7 @@ F 3 "" H 4800 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR037
+L archive:power_GND #PWR037
 U 1 1 605579FE
 P 4400 3500
 F 0 "#PWR037" H 4400 3250 50  0001 C CNN
@@ -2578,7 +2578,7 @@ F 3 "" H 4400 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR043
+L archive:power_GND #PWR043
 U 1 1 6056BABE
 P 4000 4800
 F 0 "#PWR043" H 4000 4550 50  0001 C CNN
@@ -2589,7 +2589,7 @@ F 3 "" H 4000 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR048
+L archive:power_GND #PWR048
 U 1 1 6057FC37
 P 2650 5000
 F 0 "#PWR048" H 2650 4750 50  0001 C CNN
@@ -2600,7 +2600,7 @@ F 3 "" H 2650 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR036
+L archive:power_GND #PWR036
 U 1 1 605A769A
 P 3500 3500
 F 0 "#PWR036" H 3500 3250 50  0001 C CNN
@@ -2611,7 +2611,7 @@ F 3 "" H 3500 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR035
+L archive:power_GND #PWR035
 U 1 1 605CE62A
 P 2350 3300
 F 0 "#PWR035" H 2350 3050 50  0001 C CNN
@@ -2622,7 +2622,7 @@ F 3 "" H 2350 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR031
+L archive:power_GND #PWR031
 U 1 1 605E179A
 P 3500 2700
 F 0 "#PWR031" H 3500 2450 50  0001 C CNN
@@ -2633,7 +2633,7 @@ F 3 "" H 3500 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR030
+L archive:power_GND #PWR030
 U 1 1 605F4AFD
 P 2800 2700
 F 0 "#PWR030" H 2800 2450 50  0001 C CNN
@@ -2644,7 +2644,7 @@ F 3 "" H 2800 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR034
+L archive:power_GND #PWR034
 U 1 1 60622047
 P 1000 3200
 F 0 "#PWR034" H 1000 2950 50  0001 C CNN
@@ -2655,7 +2655,7 @@ F 3 "" H 1000 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR059
+L archive:power_GND #PWR059
 U 1 1 606368B5
 P 6000 7300
 F 0 "#PWR059" H 6000 7050 50  0001 C CNN
@@ -2675,7 +2675,7 @@ Wire Wire Line
 	8600 2500 8700 2500
 Connection ~ 4000 4800
 $Comp
-L power:GNDA #PWR038
+L archive:power_GNDA #PWR038
 U 1 1 606694DB
 P 1950 3550
 F 0 "#PWR038" H 1950 3300 50  0001 C CNN
@@ -2686,12 +2686,12 @@ F 3 "" H 1950 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L project:Wire ZZ8
+L archive:project_Wire ZZ8
 U 1 1 60412DB0
 P 8250 5000
 F 0 "ZZ8" H 8250 5100 50  0001 C CNN
 F 1 "~" H 8250 5050 50  0001 C CNN
-F 2 "project:Trace_0.2mmx0.6mm" H 8250 5050 50  0001 C CNN
+F 2 "archive:Trace_0.2mmx0.6mm" H 8250 5050 50  0001 C CNN
 F 3 "" H 8250 5050 50  0001 C CNN
 F 4 "DNP" H 8250 5000 50  0001 C CNN "DNP"
 	1    8250 5000
@@ -2714,24 +2714,24 @@ Supercapacitor\nbalancing
 Wire Notes Line
 	10500 3100 7400 3100
 $Comp
-L project:Wire ZZ5
+L archive:project_Wire ZZ5
 U 1 1 604E7BBF
 P 8250 4600
 F 0 "ZZ5" H 8250 4700 50  0001 C CNN
 F 1 "~" H 8250 4650 50  0001 C CNN
-F 2 "project:Trace_0.2mmx0.6mm" H 8250 4650 50  0001 C CNN
+F 2 "archive:Trace_0.2mmx0.6mm" H 8250 4650 50  0001 C CNN
 F 3 "" H 8250 4650 50  0001 C CNN
 F 4 "DNP" H 8250 4600 50  0001 C CNN "DNP"
 	1    8250 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L project:Wire ZZ3
+L archive:project_Wire ZZ3
 U 1 1 604FA87A
 P 8250 4200
 F 0 "ZZ3" H 8250 4300 50  0001 C CNN
 F 1 "~" H 8250 4250 50  0001 C CNN
-F 2 "project:Trace_0.2mmx0.6mm" H 8250 4250 50  0001 C CNN
+F 2 "archive:Trace_0.2mmx0.6mm" H 8250 4250 50  0001 C CNN
 F 3 "" H 8250 4250 50  0001 C CNN
 F 4 "DNP" H 8250 4200 50  0001 C CNN "DNP"
 	1    8250 4200
@@ -2745,12 +2745,12 @@ Wire Wire Line
 Wire Wire Line
 	8300 4200 8450 4200
 $Comp
-L Connector:TestPoint TP11
+L archive:Connector_TestPoint TP11
 U 1 1 607106E6
 P 7600 6100
 F 0 "TP11" H 7658 6218 50  0000 L CNN
 F 1 "~" H 7658 6127 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 7800 6100 50  0001 C CNN
+F 2 "archive:TestPoint_Loop_D2.50mm_Drill1.0mm" H 7800 6100 50  0001 C CNN
 F 3 "~" H 7800 6100 50  0001 C CNN
 F 4 "Keystone 5000" H 7600 6100 50  0001 C CNN "Part"
 F 5 "GND" H 7658 6127 50  0000 L CNN "Comment"
@@ -2759,7 +2759,7 @@ F 6 "DNP" H 7600 6100 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR055
+L archive:power_GND #PWR055
 U 1 1 607106EC
 P 7600 6100
 F 0 "#PWR055" H 7600 5850 50  0001 C CNN
@@ -2770,12 +2770,12 @@ F 3 "" H 7600 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP7
+L archive:Connector_TestPoint TP7
 U 1 1 608FF2A7
 P 7100 4150
 F 0 "TP7" H 7158 4268 50  0000 L CNN
 F 1 "~" H 7158 4177 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 7300 4150 50  0001 C CNN
+F 2 "archive:TestPoint_Loop_D2.50mm_Drill1.0mm" H 7300 4150 50  0001 C CNN
 F 3 "~" H 7300 4150 50  0001 C CNN
 F 4 "Keystone 5000" H 7100 4150 50  0001 C CNN "Part"
 F 5 "VCAP2" H 7158 4177 50  0000 L CNN "Comment"
@@ -2789,12 +2789,12 @@ Connection ~ 7100 4200
 Wire Wire Line
 	7100 4200 7500 4200
 $Comp
-L Connector:TestPoint TP8
+L archive:Connector_TestPoint TP8
 U 1 1 60994EBE
 P 7100 4550
 F 0 "TP8" H 7158 4668 50  0000 L CNN
 F 1 "~" H 7158 4577 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm" H 7300 4550 50  0001 C CNN
+F 2 "archive:TestPoint_Loop_D2.50mm_Drill1.0mm" H 7300 4550 50  0001 C CNN
 F 3 "~" H 7300 4550 50  0001 C CNN
 F 4 "Keystone 5000" H 7100 4550 50  0001 C CNN "Part"
 F 5 "VCAP1" H 7158 4577 50  0000 L CNN "Comment"

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# archive_74xx_74LS08
+# 74xx_74LS08
 #
-DEF archive_74xx_74LS08 U 0 40 Y Y 5 L N
+DEF 74xx_74LS08 U 0 40 Y Y 5 L N
 F0 "U" 0 50 50 H V C CNN
-F1 "archive_74xx_74LS08" 0 -50 50 H V C CNN
+F1 "74xx_74LS08" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -74,11 +74,11 @@ X ~ 13 -300 -100 170 R 50 50 4 2 I I
 ENDDRAW
 ENDDEF
 #
-# archive_Analog_Switch_MAX40200AUK
+# Analog_Switch_MAX40200AUK
 #
-DEF archive_Analog_Switch_MAX40200AUK U 0 20 Y Y 1 F N
+DEF Analog_Switch_MAX40200AUK U 0 20 Y Y 1 F N
 F0 "U" -250 250 50 H V C CNN
-F1 "archive_Analog_Switch_MAX40200AUK" 300 250 50 H V C CNN
+F1 "Analog_Switch_MAX40200AUK" 300 250 50 H V C CNN
 F2 "archive:SOT-23-5" 0 500 50 H I C CNN
 F3 "" 0 500 50 H I C CNN
 $FPLIST
@@ -94,11 +94,11 @@ X OUT 5 400 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Connector_Generic_Conn_01x02
+# Connector_Generic_Conn_01x02
 #
-DEF archive_Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "archive_Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -113,11 +113,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Connector_Generic_Conn_01x03
+# Connector_Generic_Conn_01x03
 #
-DEF archive_Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "archive_Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -134,11 +134,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Connector_Generic_Conn_01x04
+# Connector_Generic_Conn_01x04
 #
-DEF archive_Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "archive_Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -157,11 +157,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Connector_Generic_Conn_01x06
+# Connector_Generic_Conn_01x06
 #
-DEF archive_Connector_Generic_Conn_01x06 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x06 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "archive_Connector_Generic_Conn_01x06" 0 -400 50 H V C CNN
+F1 "Connector_Generic_Conn_01x06" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -184,11 +184,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Connector_Generic_Conn_02x02_Odd_Even
+# Connector_Generic_Conn_02x02_Odd_Even
 #
-DEF archive_Connector_Generic_Conn_02x02_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x02_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 100 50 H V C CNN
-F1 "archive_Connector_Generic_Conn_02x02_Odd_Even" 50 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_02x02_Odd_Even" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -207,11 +207,11 @@ X Pin_4 4 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Connector_TestPoint
+# Connector_TestPoint
 #
-DEF archive_Connector_TestPoint TP 0 30 N N 1 F N
+DEF Connector_TestPoint TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "archive_Connector_TestPoint" 0 200 50 H V C CNN
+F1 "Connector_TestPoint" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -224,11 +224,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Device_C
+# Device_C
 #
-DEF archive_Device_C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "archive_Device_C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -242,11 +242,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Device_C_Polarized
+# Device_C_Polarized
 #
-DEF archive_Device_C_Polarized C 0 10 N Y 1 F N
+DEF Device_C_Polarized C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "archive_Device_C_Polarized" 25 -100 50 H V L CNN
+F1 "Device_C_Polarized" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -262,11 +262,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Device_C_Small
+# Device_C_Small
 #
-DEF archive_Device_C_Small C 0 10 N N 1 F N
+DEF Device_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "archive_Device_C_Small" 10 -80 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -280,11 +280,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Device_D
+# Device_D
 #
-DEF archive_Device_D D 0 40 N N 1 F N
+DEF Device_D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "archive_Device_D" 0 -100 50 H V C CNN
+F1 "Device_D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -302,11 +302,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Device_D_Schottky_Small_Filled
+# Device_D_Schottky_Small_Filled
 #
-DEF archive_Device_D_Schottky_Small_Filled D 0 10 N N 1 F N
+DEF Device_D_Schottky_Small_Filled D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "archive_Device_D_Schottky_Small_Filled" -280 -80 50 H V L CNN
+F1 "Device_D_Schottky_Small_Filled" -280 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -324,11 +324,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Device_D_Zener
+# Device_D_Zener
 #
-DEF archive_Device_D_Zener D 0 40 N N 1 F N
+DEF Device_D_Zener D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "archive_Device_D_Zener" 0 -100 50 H V C CNN
+F1 "Device_D_Zener" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -346,11 +346,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Device_Fuse
+# Device_Fuse
 #
-DEF archive_Device_Fuse F 0 0 N Y 1 F N
+DEF Device_Fuse F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "archive_Device_Fuse" -75 0 50 V V C CNN
+F1 "Device_Fuse" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -364,11 +364,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Device_L
+# Device_L
 #
-DEF archive_Device_L L 0 40 N N 1 F N
+DEF Device_L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "archive_Device_L" 75 0 50 V V C CNN
+F1 "Device_L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -387,11 +387,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Device_Opamp_Quad
+# Device_Opamp_Quad
 #
-DEF archive_Device_Opamp_Quad U 0 20 Y Y 5 L N
+DEF Device_Opamp_Quad U 0 20 Y Y 5 L N
 F0 "U" 0 200 50 H V L CNN
-F1 "archive_Device_Opamp_Quad" 0 -200 50 H V L CNN
+F1 "Device_Opamp_Quad" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -422,11 +422,11 @@ X V+ 4 -100 300 150 D 50 50 5 1 W
 ENDDRAW
 ENDDEF
 #
-# archive_Device_Q_NMOS_GSD
+# Device_Q_NMOS_GSD
 #
-DEF archive_Device_Q_NMOS_GSD Q 0 0 Y N 1 F N
+DEF Device_Q_NMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "archive_Device_Q_NMOS_GSD" 200 -50 50 H V L CNN
+F1 "Device_Q_NMOS_GSD" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -450,11 +450,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Device_Q_NPN_BEC
+# Device_Q_NPN_BEC
 #
-DEF archive_Device_Q_NPN_BEC Q 0 0 Y N 1 F N
+DEF Device_Q_NPN_BEC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "archive_Device_Q_NPN_BEC" 200 -50 50 H V L CNN
+F1 "Device_Q_NPN_BEC" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -469,11 +469,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Device_Q_NPN_Darlington_BCE
+# Device_Q_NPN_Darlington_BCE
 #
-DEF archive_Device_Q_NPN_Darlington_BCE Q 0 0 Y N 1 F N
+DEF Device_Q_NPN_Darlington_BCE Q 0 0 Y N 1 F N
 F0 "Q" 180 50 50 H V L CNN
-F1 "archive_Device_Q_NPN_Darlington_BCE" 180 -50 50 H V L CNN
+F1 "Device_Q_NPN_Darlington_BCE" 180 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -489,11 +489,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Device_Q_PNP_BEC
+# Device_Q_PNP_BEC
 #
-DEF archive_Device_Q_PNP_BEC Q 0 0 Y N 1 F N
+DEF Device_Q_PNP_BEC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "archive_Device_Q_PNP_BEC" 200 -50 50 H V L CNN
+F1 "Device_Q_PNP_BEC" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -508,11 +508,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Device_R
+# Device_R
 #
-DEF archive_Device_R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "archive_Device_R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -525,11 +525,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Device_R_Small
+# Device_R_Small
 #
-DEF archive_Device_R_Small R 0 10 N N 1 F N
+DEF Device_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "archive_Device_R_Small" 30 -40 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -542,11 +542,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Jumper_SolderJumper_2_Open
+# Jumper_SolderJumper_2_Open
 #
-DEF archive_Jumper_SolderJumper_2_Open JP 0 0 Y N 1 F N
+DEF Jumper_SolderJumper_2_Open JP 0 0 Y N 1 F N
 F0 "JP" 0 80 50 H V C CNN
-F1 "archive_Jumper_SolderJumper_2_Open" 0 -100 50 H V C CNN
+F1 "Jumper_SolderJumper_2_Open" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -564,11 +564,11 @@ X B 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Mechanical_MountingHole
+# Mechanical_MountingHole
 #
-DEF archive_Mechanical_MountingHole H 0 40 Y Y 1 F N
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
 F0 "H" 0 200 50 H V C CNN
-F1 "archive_Mechanical_MountingHole" 0 125 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -579,11 +579,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# archive_Reference_Voltage_TL432DBZ
+# Reference_Voltage_TL432DBZ
 #
-DEF archive_Reference_Voltage_TL432DBZ U 0 20 N N 1 F N
+DEF Reference_Voltage_TL432DBZ U 0 20 N N 1 F N
 F0 "U" -100 100 50 H V C CNN
-F1 "archive_Reference_Voltage_TL432DBZ" 0 -100 50 H V C CNN
+F1 "Reference_Voltage_TL432DBZ" 0 -100 50 H V C CNN
 F2 "archive:SOT-23" 0 -150 50 H I C CIN
 F3 "" 0 0 50 H I C CIN
 $FPLIST
@@ -599,11 +599,11 @@ X A 3 -100 0 50 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Regulator_Switching_TPS562200
+# Regulator_Switching_TPS562200
 #
-DEF archive_Regulator_Switching_TPS562200 U 0 20 Y Y 1 F N
+DEF Regulator_Switching_TPS562200 U 0 20 Y Y 1 F N
 F0 "U" -300 250 50 H V L CNN
-F1 "archive_Regulator_Switching_TPS562200" -100 250 50 H V L CNN
+F1 "Regulator_Switching_TPS562200" -100 250 50 H V L CNN
 F2 "archive:SOT-23-6" 50 -250 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS TPS563200 TPS565208
@@ -621,11 +621,11 @@ X VBST 6 400 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_Timer_LM555xM
+# Timer_LM555xM
 #
-DEF archive_Timer_LM555xM U 0 20 Y Y 1 F N
+DEF Timer_LM555xM U 0 20 Y Y 1 F N
 F0 "U" -400 350 50 H V L CNN
-F1 "archive_Timer_LM555xM" 100 350 50 H V L CNN
+F1 "Timer_LM555xM" 100 350 50 H V L CNN
 F2 "archive:SOIC-8_3.9x4.9mm_P1.27mm" 850 -400 50 H I C CNN
 F3 "" 850 -400 50 H I C CNN
 ALIAS LM555xM ICM7555xB LMC555xM MC1455B TLC555xD NA555D SE555D SA555D
@@ -646,11 +646,11 @@ X DIS 7 500 0 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# archive_power_+5V
+# power_+5V
 #
-DEF archive_power_+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "archive_power_+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -661,11 +661,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# archive_power_GND
+# power_GND
 #
-DEF archive_power_GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "archive_power_GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -674,11 +674,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# archive_power_GNDA
+# power_GNDA
 #
-DEF archive_power_GNDA #PWR 0 0 Y Y 1 F P
+DEF power_GNDA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "archive_power_GNDA" 0 -150 50 H V C CNN
+F1 "power_GNDA" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -687,11 +687,11 @@ X GNDA 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# archive_power_VCC
+# power_VCC
 #
-DEF archive_power_VCC #PWR 0 0 Y Y 1 F P
+DEF power_VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "archive_power_VCC" 0 150 50 H V C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -702,11 +702,11 @@ X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# archive_project_INA180A
+# project_INA180A
 #
-DEF archive_project_INA180A U 0 5 Y Y 1 F N
+DEF project_INA180A U 0 5 Y Y 1 F N
 F0 "U" 150 200 50 H V L CNN
-F1 "archive_project_INA180A" 150 100 50 H V L CNN
+F1 "project_INA180A" 150 100 50 H V L CNN
 F2 "archive:SOT-23-5" 0 0 50 H I C CNN
 F3 "" 0 5 50 H I C CNN
 $FPLIST
@@ -722,11 +722,11 @@ X V+ 5 -100 300 150 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# archive_project_LM5117PMH
+# project_LM5117PMH
 #
-DEF archive_project_LM5117PMH U 0 40 Y Y 1 F N
+DEF project_LM5117PMH U 0 40 Y Y 1 F N
 F0 "U" 0 750 50 H V C CNN
-F1 "archive_project_LM5117PMH" 0 650 50 H V C CNN
+F1 "project_LM5117PMH" 0 650 50 H V C CNN
 F2 "archive:ETSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3x4.2mm" 0 650 50 H I C CNN
 F3 "" 0 650 50 H I C CNN
 DRAW
@@ -755,11 +755,11 @@ X COMP 9 -400 200 100 R 50 50 1 1 U
 ENDDRAW
 ENDDEF
 #
-# archive_project_NMOS_SuperSO8
+# project_NMOS_SuperSO8
 #
-DEF archive_project_NMOS_SuperSO8 Q 0 20 Y N 1 F N
+DEF project_NMOS_SuperSO8 Q 0 20 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "archive_project_NMOS_SuperSO8" 200 0 50 H V L CNN
+F1 "project_NMOS_SuperSO8" 200 0 50 H V L CNN
 F2 "archive:TDSON-8-1" 200 -75 50 H I L CIN
 F3 "" 0 0 50 V I L CNN
 $FPLIST
@@ -788,11 +788,11 @@ X D 5 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# archive_project_TPS63020
+# project_TPS63020
 #
-DEF archive_project_TPS63020 U 0 20 Y Y 1 F N
+DEF project_TPS63020 U 0 20 Y Y 1 F N
 F0 "U" -300 450 50 H V L CNN
-F1 "archive_project_TPS63020" 100 450 50 H V C CNN
+F1 "project_TPS63020" 100 450 50 H V C CNN
 F2 "" 850 -350 50 H I C CNN
 F3 "" -300 450 50 H I C CNN
 $FPLIST
@@ -818,11 +818,11 @@ X L1 9 -400 300 100 R 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# archive_project_Wire
+# project_Wire
 #
-DEF archive_project_Wire ZZ 0 40 Y Y 1 F N
+DEF project_Wire ZZ 0 40 Y Y 1 F N
 F0 "ZZ" 0 100 50 H I C CNN
-F1 "archive_project_Wire" 0 50 50 H I C CNN
+F1 "project_Wire" 0 50 50 H I C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 DRAW
