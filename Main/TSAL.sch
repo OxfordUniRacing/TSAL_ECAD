@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "TSAL Logic"
-Date "2021-02-22"
+Title "TSAL Logic and Power Board"
+Date "2021-03-01"
 Rev "B"
 Comp "Copyright (c) 2021 Andrew Chen <andrew@xortux.com>"
 Comment1 ""
